@@ -5,9 +5,10 @@ using System.Collections.Generic;
 
 namespace Fungus
 {
-	[EventHandlerInfo("Sprites",
+	[EventHandlerInfo("Sprite",
 	                  "Drag Started",
-	                  "The sequence will execute when the player starts dragging an object.")]
+	                  "The block will execute when the player starts dragging an object.")]
+	[AddComponentMenu("")]
 	public class DragStarted : EventHandler
 	{	
 		public Draggable2D draggableObject;
@@ -16,8 +17,18 @@ namespace Fungus
 		{
 			if (draggableObject == this.draggableObject)
 			{
-				ExecuteSequence();
+				ExecuteBlock();
 			}
+		}
+
+		public override string GetSummary()
+		{
+			if (draggableObject != null)
+			{
+				return draggableObject.name;
+			}
+			
+			return "None";
 		}
 	}
 }

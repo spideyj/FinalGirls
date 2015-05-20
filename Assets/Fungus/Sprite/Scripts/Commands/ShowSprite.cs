@@ -7,9 +7,13 @@ namespace Fungus
 	[CommandInfo("Sprite", 
 	             "Show Sprite", 
 	             "Makes a sprite visible / invisible by setting the color alpha.")]
+	[AddComponentMenu("")]
 	public class ShowSprite : Command 
 	{
+		[Tooltip("Sprite object to be made visible / invisible")]
 		public SpriteRenderer spriteRenderer;
+
+		[Tooltip("Make the sprite visible or invisible")]
 		public bool visible = true;
 
 		public override void OnEnter()

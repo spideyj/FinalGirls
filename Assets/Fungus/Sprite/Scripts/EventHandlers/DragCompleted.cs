@@ -5,12 +5,16 @@ using System.Collections.Generic;
 
 namespace Fungus
 {
-	[EventHandlerInfo("Sprites",
+	[EventHandlerInfo("Sprite",
 	                  "Drag Completed",
-	                  "The sequence will execute when the player drags an object and successfully drops it on a target object.")]
+	                  "The block will execute when the player drags an object and successfully drops it on a target object.")]
+	[AddComponentMenu("")]
 	public class DragCompleted : EventHandler
 	{	
+		[Tooltip("Draggable object to listen for drag events on")]
 		public Draggable2D draggableObject;
+
+		[Tooltip("Drag target object to listen for drag events on")]
 		public Collider2D targetObject;
 		
 		// There's no way to poll if an object is touching another object, so
@@ -52,8 +56,28 @@ namespace Fungus
 				// draggable object is set to be inactive.
 				overTarget = false;
 				
-				ExecuteSequence();
+				ExecuteBlock();
 			}
+		}
+
+		public override string GetSummary()
+		{
+			string summary = "";
+			if (draggableObject != null)
+			{
+				summary += "\nDraggable: " + draggableObject.name;
+			}
+			if (targetObject != null)
+			{
+				summary += "\nTarget: " + targetObject.name;
+			}
+
+			if (summary.Length == 0)
+			{
+				return "None";
+			}
+
+			return summary;
 		}
 	}
 }

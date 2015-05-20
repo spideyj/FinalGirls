@@ -6,6 +6,8 @@ using UnityEngine;
 #if UNITY_EDITOR
 [ExecuteInEditMode]
 #endif
+
+[AddComponentMenu("")]
 public class SfxrAudioPlayer : MonoBehaviour {
 
 	/**
@@ -54,6 +56,7 @@ public class SfxrAudioPlayer : MonoBehaviour {
 		soundSource.volume = 1f;
 		soundSource.pitch = 1f;
 		soundSource.priority = 128;
+		soundSource.Play();
 	}
 
 	void Update() {

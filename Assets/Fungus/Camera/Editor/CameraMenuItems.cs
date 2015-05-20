@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 using System.Collections;
 
@@ -7,10 +7,10 @@ namespace Fungus
 
 	public class CameraMenuItems 
 	{
-		[MenuItem("GameObject/Fungus/Camera/View")]
-		static void CreateBackground()
+		[MenuItem("Tools/Fungus/Create/View", false, 100)]
+		static void CreateView()
 		{
-			FungusScriptMenuItems.SpawnPrefab("Assets/Fungus/Camera/Prefabs/View.prefab");
+			FlowchartMenuItems.SpawnPrefab("View");
 		}
 	}
 

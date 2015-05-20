@@ -5,7 +5,7 @@ namespace Fungus
 {
 
 	/**
-	 * Detects drag and drop interactions on a Game Object, and sends events to all Fungus Script event handlers in the scene.
+	 * Detects drag and drop interactions on a Game Object, and sends events to all Flowchart event handlers in the scene.
 	 * The Game Object must have Collider2D & RigidBody components attached. 
 	 * The Collider2D must have the Is Trigger property set to true.
 	 * The RigidBody would typically have the Is Kinematic property set to true, unless you want the object to move around using physics.
@@ -22,7 +22,7 @@ namespace Fungus
 		[Tooltip("Time object takes to return to its starting position")]
 		public float returnDuration = 1f;
 
-		Vector3 startingPosition;
+		protected Vector3 startingPosition;
 
 		protected virtual void OnMouseDown()
 		{
@@ -48,18 +48,16 @@ namespace Fungus
 			Vector3 newPosition = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 10f));
 			newPosition.z = z;
 
-			if (GetComponent<Rigidbody2D>() != null)
-			{
-				GetComponent<Rigidbody2D>().MovePosition(newPosition);
-			}
-			else
-			{
-				transform.position = newPosition;
-			}
+			transform.position = newPosition;
 		}
 		
 		protected virtual void OnMouseUp()
 		{
+			if (!dragEnabled)
+			{
+				return;
+			}
+
 			bool dragCompleted = false;
 
 			DragCompleted[] handlers = GetHandlers<DragCompleted>();
@@ -92,6 +90,11 @@ namespace Fungus
 
 		protected virtual void OnTriggerEnter2D(Collider2D other) 
 		{
+			if (!dragEnabled)
+			{
+				return;
+			}
+
 			foreach (DragEntered handler in GetHandlers<DragEntered>())
 			{
 				handler.OnDragEntered(this, other);
@@ -105,6 +108,11 @@ namespace Fungus
 
 		protected virtual void OnTriggerExit2D(Collider2D other) 
 		{
+			if (!dragEnabled)
+			{
+				return;
+			}
+
 			foreach (DragExited handler in GetHandlers<DragExited>())
 			{
 				handler.OnDragExited(this, other);

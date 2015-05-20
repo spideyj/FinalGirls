@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 using System.Collections;
 
@@ -7,28 +7,28 @@ namespace Fungus
 
 	public class SpriteMenuItems 
 	{
-		[MenuItem("GameObject/Fungus/Sprite/ClickableSprite")]
+		[MenuItem("Tools/Fungus/Create/Clickable Sprite", false, 150)]
 		static void CreateClickableSprite()
 		{
-			FungusScriptMenuItems.SpawnPrefab("Assets/Fungus/Sprite/Prefabs/ClickableSprite.prefab");
+			FlowchartMenuItems.SpawnPrefab("ClickableSprite");
 		}
 
-		[MenuItem("GameObject/Fungus/Sprite/DraggableSprite")]
+		[MenuItem("Tools/Fungus/Create/Draggable Sprite", false, 151)]
 		static void CreateDraggableSprite()
 		{
-			FungusScriptMenuItems.SpawnPrefab("Assets/Fungus/Sprite/Prefabs/DraggableSprite.prefab");
+			FlowchartMenuItems.SpawnPrefab("DraggableSprite");
 		}
 
-		[MenuItem("GameObject/Fungus/Sprite/DragTargetSprite")]
+		[MenuItem("Tools/Fungus/Create/Drag Target Sprite", false, 152)]
 		static void CreateDragTargetSprite()
 		{
-			FungusScriptMenuItems.SpawnPrefab("Assets/Fungus/Sprite/Prefabs/DragTargetSprite.prefab");
+			FlowchartMenuItems.SpawnPrefab("DragTargetSprite");
 		}
 
-		[MenuItem("GameObject/Fungus/Sprite/ParallaxSprite")]
+		[MenuItem("Tools/Fungus/Create/Parallax Sprite", false, 152)]
 		static void CreateParallaxSprite()
 		{
-			FungusScriptMenuItems.SpawnPrefab("Assets/Fungus/Sprite/Prefabs/ParallaxSprite.prefab");
+			FlowchartMenuItems.SpawnPrefab("ParallaxSprite");
 		}
 	}
 
