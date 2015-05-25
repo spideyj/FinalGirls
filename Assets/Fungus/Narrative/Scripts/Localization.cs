@@ -1,10 +1,4 @@
-﻿/**
- * CSVParser by Ideafixxxer. http://www.codeproject.com/Tips/741941/CSV-Parser-Csharp
- * This code is licensed under the CPOL open source license.
- * http://www.codeproject.com/info/cpol10.aspx
- */
-
-using UnityEngine;
+﻿using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -144,7 +138,7 @@ namespace Fungus
 		}
 
 		/**
-		 * Buidls a dictionary of localizable text items in the scene.
+		 * Builds a dictionary of localizable text items in the scene.
 		 */
 		protected Dictionary<string, TextItem> FindTextItems()
 		{
@@ -166,10 +160,11 @@ namespace Fungus
 			Flowchart[] flowcharts = GameObject.FindObjectsOfType<Flowchart>();
 			foreach (Flowchart flowchart in flowcharts)
 			{
-				// Have to set a unique localization id to export strings
-				if (flowchart.localizationId.Length == 0)
+				// If no localization id has been set then use the Flowchart name
+				string localizationId = flowchart.localizationId;
+				if (localizationId.Length == 0)
 				{
-					continue;
+					localizationId = flowchart.name;
 				}
 
 				Block[] blocks = flowchart.GetComponentsInChildren<Block>();
@@ -188,7 +183,7 @@ namespace Fungus
 							Say sayCommand = command as Say;
 							standardText = sayCommand.storyText;
 							description = sayCommand.description;
-							stringId = "SAY." + flowchart.localizationId + "." + sayCommand.itemId + ".";
+							stringId = "SAY." + localizationId + "." + sayCommand.itemId + ".";
 							if (sayCommand.character != null)
 							{
 								stringId += sayCommand.character.nameText;
@@ -200,7 +195,7 @@ namespace Fungus
 							Menu menuCommand = command as Menu;
 							standardText = menuCommand.text;
 							description = menuCommand.description;
-							stringId = "MENU." + flowchart.localizationId + "." + menuCommand.itemId;
+							stringId = "MENU." + localizationId + "." + menuCommand.itemId;
 						}
 						else
 						{
@@ -297,7 +292,7 @@ namespace Fungus
 		 * Scan a localization CSV file and copies the strings for the specified language code
 		 * into the text properties of the appropriate scene objects.
 		 */
-		public virtual void SetActiveLanguage(string languageCode)
+		public virtual void SetActiveLanguage(string languageCode, bool forceUpdateSceneText = false)
 		{
 			if (!Application.isPlaying)
 			{
@@ -357,7 +352,13 @@ namespace Fungus
 
 					localizedStrings[fields[0]] = fields[languageIndex];
 				}
-				return;
+
+				// Early out unless we've been told to force the scene text to update.
+				// This happens when the Set Language command is used to reset back to the standard language.
+				if (!forceUpdateSceneText)
+				{
+					return;
+				}
 			}
 
 			// Using a localized language text column
@@ -373,9 +374,16 @@ namespace Fungus
 
 			// Cache a lookup table of flowcharts in the scene
 			Dictionary<string, Flowchart> flowchartDict = new Dictionary<string, Flowchart>();
-			foreach (Flowchart flowChart in GameObject.FindObjectsOfType<Flowchart>())
+			foreach (Flowchart flowchart in GameObject.FindObjectsOfType<Flowchart>())
 			{
-				flowchartDict[flowChart.localizationId] = flowChart;
+				// If no localization id has been set then use the Flowchart name
+				string localizationId = flowchart.localizationId;
+				if (localizationId.Length == 0)
+				{
+					localizationId = flowchart.name;
+				}
+
+				flowchartDict[localizationId] = flowchart;
 			}
 
 			for (int i = 1; i < csvTable.Length; ++i)
@@ -552,9 +560,16 @@ namespace Fungus
 			
 			// Cache a lookup table of flowcharts in the scene
 			Dictionary<string, Flowchart> flowchartDict = new Dictionary<string, Flowchart>();
-			foreach (Flowchart flowChart in GameObject.FindObjectsOfType<Flowchart>())
+			foreach (Flowchart flowchart in GameObject.FindObjectsOfType<Flowchart>())
 			{
-				flowchartDict[flowChart.localizationId] = flowChart;
+				// If no localization id has been set then use the Flowchart name
+				string localizationId = flowchart.localizationId;
+				if (localizationId.Length == 0)
+				{
+					localizationId = flowchart.name;
+				}
+
+				flowchartDict[localizationId] = flowchart;
 			}
 
 			string[] lines = textData.Split('\n');

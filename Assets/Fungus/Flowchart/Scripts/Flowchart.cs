@@ -9,14 +9,6 @@ using System.Text.RegularExpressions;
 namespace Fungus
 {
 	/**
-	 * The FungusScript class has been renamed to Flowchart to be more descriptive.
-	 */
-	[Obsolete("Use Flowchart class instead")]
-	[ExecuteInEditMode]
-	public class FungusScript : Flowchart
-	{}
-
-	/**
 	 * Visual scripting controller for the Flowchart programming language.
 	 * Flowchart objects may be edited visually using the Flowchart editor window.
 	 */
@@ -112,7 +104,7 @@ namespace Fungus
 		/**
 		 * Unique identifier for identifying this flowchart in localized string keys.
 		 */
-		[Tooltip("Unique identifier for this flowchart in localized string keys. This id must be provided for localization string export to work.")]
+		[Tooltip("Unique identifier for this flowchart in localized string keys. If no id is specified then the name of the Flowchart object will be used.")]
 		public string localizationId = "";
 
 		/**
@@ -122,6 +114,11 @@ namespace Fungus
 		[FormerlySerializedAs("nextCommandId")]
 		[SerializeField]
 		protected int nextItemId = 0;
+
+		/**
+		 * Cached list of flowchart objects in the scene for fast lookup
+		 */
+		public static List<Flowchart> cachedFlowcharts = new List<Flowchart>();
 
 		/**
 		 * Returns the next id to assign to a new flowchart item.
@@ -135,6 +132,11 @@ namespace Fungus
 
 		public virtual void OnEnable()
 		{
+			if (!cachedFlowcharts.Contains(this))
+			{
+				cachedFlowcharts.Add(this);
+			}
+
 			// Assign an item id to any block or command that doesn't have one yet.
 			// This should only happen after loading a legacy Flowchart
 			Block[] blocks = GetComponentsInChildren<Block>();
@@ -154,6 +156,11 @@ namespace Fungus
 					command.itemId = NextItemId();
 				}
 			}
+		}
+
+		public virtual void OnDisable()
+		{
+			cachedFlowcharts.Remove(this);
 		}
 
 		protected virtual Block CreateBlockComponent(GameObject parent)
@@ -679,14 +686,33 @@ namespace Fungus
 			{
 				string key = match.Value.Substring(2, match.Value.Length - 3);
 
-				// Look for matching variable first
+				// Look for any matching variables in this Flowchart first (public or private)
 				foreach (Variable variable in variables)
 				{
 					if (variable.key == key)
 					{	
 						string value = variable.ToString();
 						subbedText = subbedText.Replace(match.Value, value);
-						return subbedText;
+					}
+				}
+
+				// Now search all public variables in all scene Flowcharts in the scene
+				foreach (Flowchart flowchart in cachedFlowcharts)
+				{
+					if (flowchart == this)
+					{
+						// We've already searched this flowchart
+						continue;
+					}
+
+					foreach (Variable variable in flowchart.variables)
+					{
+						if (variable.scope == VariableScope.Public &&
+							variable.key == key)
+						{	
+							string value = variable.ToString();
+							subbedText = subbedText.Replace(match.Value, value);
+						}
 					}
 				}
 
@@ -695,7 +721,6 @@ namespace Fungus
 				if (localizedString != null)
 				{
 					subbedText = subbedText.Replace(match.Value, localizedString);
-					return subbedText;
 				}
 			}
 			
