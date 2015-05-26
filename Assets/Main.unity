@@ -176,6 +176,90 @@ GameObject:
   - 114: {fileID: 15730941}
   - 114: {fileID: 15730939}
   - 114: {fileID: 15730944}
+  - 114: {fileID: 15730952}
+  - 114: {fileID: 15730955}
+  - 114: {fileID: 15730954}
+  - 114: {fileID: 15730953}
+  - 114: {fileID: 15730946}
+  - 114: {fileID: 15730947}
+  - 114: {fileID: 15730951}
+  - 114: {fileID: 15730950}
+  - 114: {fileID: 15730949}
+  - 114: {fileID: 15730948}
+  - 114: {fileID: 15730970}
+  - 114: {fileID: 15730969}
+  - 114: {fileID: 15730968}
+  - 114: {fileID: 15730967}
+  - 114: {fileID: 15730966}
+  - 114: {fileID: 15730965}
+  - 114: {fileID: 15730964}
+  - 114: {fileID: 15730963}
+  - 114: {fileID: 15730962}
+  - 114: {fileID: 15730961}
+  - 114: {fileID: 15730960}
+  - 114: {fileID: 15730959}
+  - 114: {fileID: 15730958}
+  - 114: {fileID: 15730957}
+  - 114: {fileID: 15730956}
+  - 114: {fileID: 15730973}
+  - 114: {fileID: 15730972}
+  - 114: {fileID: 15730971}
+  - 114: {fileID: 15731006}
+  - 114: {fileID: 15731005}
+  - 114: {fileID: 15731004}
+  - 114: {fileID: 15731003}
+  - 114: {fileID: 15731002}
+  - 114: {fileID: 15731001}
+  - 114: {fileID: 15731000}
+  - 114: {fileID: 15730981}
+  - 114: {fileID: 15730999}
+  - 114: {fileID: 15730979}
+  - 114: {fileID: 15730978}
+  - 114: {fileID: 15730980}
+  - 114: {fileID: 15730977}
+  - 114: {fileID: 15730976}
+  - 114: {fileID: 15730998}
+  - 114: {fileID: 15730997}
+  - 114: {fileID: 15730996}
+  - 114: {fileID: 15730995}
+  - 114: {fileID: 15730994}
+  - 114: {fileID: 15730993}
+  - 114: {fileID: 15730992}
+  - 114: {fileID: 15730991}
+  - 114: {fileID: 15730990}
+  - 114: {fileID: 15730989}
+  - 114: {fileID: 15730988}
+  - 114: {fileID: 15730987}
+  - 114: {fileID: 15730986}
+  - 114: {fileID: 15730985}
+  - 114: {fileID: 15730984}
+  - 114: {fileID: 15730983}
+  - 114: {fileID: 15730982}
+  - 114: {fileID: 15731020}
+  - 114: {fileID: 15731019}
+  - 114: {fileID: 15731018}
+  - 114: {fileID: 15731017}
+  - 114: {fileID: 15731016}
+  - 114: {fileID: 15731015}
+  - 114: {fileID: 15731014}
+  - 114: {fileID: 15731013}
+  - 114: {fileID: 15731012}
+  - 114: {fileID: 15731011}
+  - 114: {fileID: 15731010}
+  - 114: {fileID: 15731008}
+  - 114: {fileID: 15731009}
+  - 114: {fileID: 15731007}
+  - 114: {fileID: 15730974}
+  - 114: {fileID: 15730975}
+  - 114: {fileID: 15731021}
+  - 114: {fileID: 15731022}
+  - 114: {fileID: 15731023}
+  - 114: {fileID: 15731024}
+  - 114: {fileID: 15731026}
+  - 114: {fileID: 15731025}
+  - 114: {fileID: 15731029}
+  - 114: {fileID: 15731028}
+  - 114: {fileID: 15731027}
   m_Layer: 0
   m_Name: FlowchartLaurie
   m_TagString: Untagged
@@ -218,10 +302,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 15731021}
   - {fileID: 15730937}
+  - {fileID: 15730952}
   - {fileID: 15730943}
   - {fileID: 15730941}
   - {fileID: 15730939}
+  - {fileID: 15730946}
 --- !u!114 &15730935
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -255,20 +342,23 @@ MonoBehaviour:
   scrollViewRect:
     serializedVersion: 2
     x: -350
-    y: -350
-    width: 1471
-    height: 997
-  selectedBlock: {fileID: 15730945}
+    y: -423
+    width: 1560
+    height: 1103
+  selectedBlock: {fileID: 15730940}
   selectedCommands:
-  - {fileID: 15730944}
-  variables: []
+  - {fileID: 15731013}
+  variables:
+  - {fileID: 15730955}
+  - {fileID: 15730954}
+  - {fileID: 15730953}
   description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
   localizationId: 
-  nextItemId: 10
+  nextItemId: 97
 --- !u!114 &15730937
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -283,9 +373,11 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: Hi, I'm Laurie
+  storyText: 'My week has been really good! I''m taking some interesting classes,
+    I adopted a really cute dog from the shelter and I was able to help a student
+    with her problems. '
   description: 
-  character: {fileID: 1430934121}
+  character: {fileID: 164532003}
   portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -294,7 +386,7 @@ MonoBehaviour:
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
-  setSayDialog: {fileID: 1546832310}
+  setSayDialog: {fileID: 600837723}
 --- !u!114 &15730938
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -308,18 +400,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 260
-    y: 59
+    x: 257
+    y: 88
     width: 120
     height: 40
   itemId: 2
-  blockName: Classes
+  blockName: Class
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 15730979}
+  - {fileID: 15731022}
+  - {fileID: 15730970}
+  - {fileID: 15730969}
+  - {fileID: 15730968}
+  - {fileID: 15730967}
+  - {fileID: 15730966}
+  - {fileID: 15730965}
+  - {fileID: 15730964}
+  - {fileID: 15731023}
+  - {fileID: 15730963}
+  - {fileID: 15730962}
+  - {fileID: 15730961}
+  - {fileID: 15730960}
+  - {fileID: 15730959}
+  - {fileID: 15730958}
+  - {fileID: 15730957}
+  - {fileID: 15730956}
+  - {fileID: 15730973}
+  - {fileID: 15730972}
+  - {fileID: 15730971}
 --- !u!114 &15730939
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15730932}
@@ -331,7 +444,7 @@ MonoBehaviour:
   itemId: 8
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Tell them about the new puppy
   description: 
   targetBlock: {fileID: 15730940}
   hideIfVisited: 1
@@ -349,18 +462,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 258
-    y: 175
+    x: 254
+    y: 200
     width: 120
     height: 40
   itemId: 4
   blockName: Dog
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 15731020}
+  - {fileID: 15731029}
+  - {fileID: 15731019}
+  - {fileID: 15731018}
+  - {fileID: 15731017}
+  - {fileID: 15731016}
+  - {fileID: 15731015}
+  - {fileID: 15731014}
+  - {fileID: 15731013}
+  - {fileID: 15731028}
+  - {fileID: 15731012}
+  - {fileID: 15731011}
+  - {fileID: 15731010}
+  - {fileID: 15731009}
+  - {fileID: 15731027}
+  - {fileID: 15731008}
+  - {fileID: 15731007}
+  - {fileID: 15730975}
+  - {fileID: 15730974}
 --- !u!114 &15730941
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15730932}
@@ -372,7 +504,7 @@ MonoBehaviour:
   itemId: 7
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Talk about my students
   description: 
   targetBlock: {fileID: 15730942}
   hideIfVisited: 1
@@ -390,18 +522,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 258
-    y: 119
+    x: 255
+    y: 148
     width: 120
     height: 40
   itemId: 3
-  blockName: Student
+  blockName: Students
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 15731026}
+  - {fileID: 15731006}
+  - {fileID: 15731005}
+  - {fileID: 15731004}
+  - {fileID: 15731003}
+  - {fileID: 15731002}
+  - {fileID: 15731001}
+  - {fileID: 15731000}
+  - {fileID: 15730980}
+  - {fileID: 15730978}
+  - {fileID: 15730977}
+  - {fileID: 15730976}
 --- !u!114 &15730943
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15730932}
@@ -413,14 +557,14 @@ MonoBehaviour:
   itemId: 6
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Talk about the class I'm taking
   description: 
   targetBlock: {fileID: 15730938}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &15730944
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15730932}
@@ -437,7 +581,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &15730945
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15730932}
@@ -448,8 +592,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 554
-    y: 89
+    x: 659
+    y: 149
     width: 120
     height: 40
   itemId: 5
@@ -458,6 +602,2009 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 15730944}
+--- !u!114 &15730946
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  errorMessage: 
+  indentLevel: 0
+  text: I don't really have anything to talk about
+  description: 
+  targetBlock: {fileID: 15730947}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730947
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 442
+    y: 7
+    width: 120
+    height: 40
+  itemId: 12
+  blockName: Nothing
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 15730951}
+  - {fileID: 15730950}
+  - {fileID: 15730949}
+  - {fileID: 15730948}
+--- !u!114 &15730948
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 1529011483}
+  targetBlock: {fileID: 1529011481}
+  callMode: 0
+--- !u!114 &15730949
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  errorMessage: 
+  indentLevel: 0
+  storyText: Whatever feels comfortable, Laurie. I'm glad to hear your week went well.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730950
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Nothing much to say this week, I'm afraid. My week was pretty uneventful.
+    \n{i}Laurie smiles.{/i}"
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730951
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, I'd rather not talk about my week right now, it just feels like
+    crowing.
+  description: 
+  character: {fileID: 164532003}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15730952
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  errorMessage: 
+  indentLevel: 0
+  storyText: I feel a little guilty talking about how good my life has been when I
+    know some of the others are having a tough time, but maybe it's as important to
+    talk about the good times as the bad.
+  description: 
+  character: {fileID: 164532003}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15730953
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Dog
+  value: 0
+--- !u!114 &15730954
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Jennifer
+  value: 0
+--- !u!114 &15730955
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Class
+  value: 0
+--- !u!114 &15730956
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}Laurie nods.{/i}
+
+    Yeah, that makes a lot of sense.'
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730957
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  errorMessage: 
+  indentLevel: 0
+  storyText: While it can be very healing to connect with people who share those experiences
+    with you, it can also be really exhausting and sometimes triggering.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730958
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  errorMessage: 
+  indentLevel: 0
+  storyText: That's definitely been true for me in my work. But it's important to
+    keep in mind that you will have to do extra work to take care of yourself.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730959
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  errorMessage: 
+  indentLevel: 0
+  storyText: She also said she thought my experiences would make me better at supporting
+    any of my students who had been traumatized because I would be able to relate
+    to them.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730960
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  errorMessage: 
+  indentLevel: 0
+  storyText: She was really positive and supportive. She thanked me for sharing something
+    so personal and said that she imagined it was probably difficult to talk about.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730961
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  errorMessage: 
+  indentLevel: 0
+  storyText: How did the instructor respond?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730962
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh yeah, I can imagine.
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730963
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yes, actually, I ended up writing about it for our most recent assignment.
+    That was kind of hard but ultimately helpful, I think?
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730964
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  errorMessage: 
+  indentLevel: 0
+  storyText: It's always so hard to talk about my own trauma in a professional context.
+    I worry about how it might change how people see me if they know what I went through.
+  description: 
+  character: {fileID: 164532003}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15730965
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}Ellen smiles.{/i}
+
+    Oh yes, I can see that. Have you talked about any of your experiences in the context
+    of the class?'
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730966
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  errorMessage: 
+  indentLevel: 0
+  storyText: It's about the effects of trauma on learning. So you can see why it would
+    be personally relevant.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730967
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  errorMessage: 
+  indentLevel: 0
+  storyText: What's it about?
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730968
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, that's right. Sometimes they end up being pretty terrible and boring,
+    but this one is actually pretty interesting, I think.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730969
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  errorMessage: 
+  indentLevel: 0
+  storyText: This is the one you needed to take to keep up your teaching credential,
+    yeah?
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730970
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  errorMessage: 
+  indentLevel: 0
+  storyText: So I'm wrapping up that class I'm taking in another week or two.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730971
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  errorMessage: 
+  indentLevel: 0
+  text: Laurie's done talking
+  description: 
+  targetBlock: {fileID: 15730945}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730972
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the new puppy
+  description: 
+  targetBlock: {fileID: 15730940}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730973
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about my students
+  description: 
+  targetBlock: {fileID: 15730942}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730974
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  errorMessage: 
+  indentLevel: 0
+  text: Laurie's done talking
+  description: 
+  targetBlock: {fileID: 15730945}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730975
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about my students
+  description: 
+  targetBlock: {fileID: 15730942}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730976
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  errorMessage: 
+  indentLevel: 0
+  text: Laurie's done talking
+  description: 
+  targetBlock: {fileID: 15730945}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730977
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the new puppy
+  description: 
+  targetBlock: {fileID: 15730940}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730978
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the class I'm taking
+  description: 
+  targetBlock: {fileID: 15730938}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730979
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 15730955}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &15730980
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about Jennifer
+  description: 
+  targetBlock: {fileID: 15730981}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730981
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 480
+    y: 71
+    width: 120
+    height: 40
+  itemId: 45
+  blockName: Jennifer
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 15730999}
+  - {fileID: 15731025}
+  - {fileID: 15730998}
+  - {fileID: 15730997}
+  - {fileID: 15730996}
+  - {fileID: 15730995}
+  - {fileID: 15730994}
+  - {fileID: 15730993}
+  - {fileID: 15730992}
+  - {fileID: 15730991}
+  - {fileID: 15731024}
+  - {fileID: 15730990}
+  - {fileID: 15730989}
+  - {fileID: 15730988}
+  - {fileID: 15730987}
+  - {fileID: 15730986}
+  - {fileID: 15730985}
+  - {fileID: 15730984}
+  - {fileID: 15730983}
+  - {fileID: 15730982}
+--- !u!114 &15730982
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  errorMessage: 
+  indentLevel: 0
+  text: Laurie's done talking
+  description: 
+  targetBlock: {fileID: 15730945}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730983
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  errorMessage: 
+  indentLevel: 0
+  text: Tell them about the new puppy
+  description: 
+  targetBlock: {fileID: 15730940}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730984
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the class I'm taking
+  description: 
+  targetBlock: {fileID: 15730938}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15730985
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, I hope it helps.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730986
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  errorMessage: 
+  indentLevel: 0
+  storyText: That sounds like a good plan.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730987
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  errorMessage: 
+  indentLevel: 0
+  storyText: She and I are also going to meet with her counselor this week to discuss
+    the situation.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730988
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  errorMessage: 
+  indentLevel: 0
+  storyText: I'm considering reaching out to the other girls' parents to see what's
+    going on there, hopefully without tipping them off that she came to me.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730989
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, me too. If it continues I'm going to see if we can talk about going
+    to mediation or something.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730990
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  errorMessage: 
+  indentLevel: 0
+  storyText: I hope it doesn't get any worse for her.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730991
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  errorMessage: 
+  indentLevel: 0
+  storyText: I wish I'd had a teacher like Laurie when I was in high school...
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15730992
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  errorMessage: 
+  indentLevel: 0
+  storyText: I also offered to talk to them myself, and she said she would think about
+    it. Mostly I just listened and told her that what they were doing wasn't right
+    and she doesn't deserve it.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730993
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  errorMessage: 
+  indentLevel: 0
+  storyText: I also talked to her about talking to the girls who were doing it but
+    it doesn't sound like that was a good option either.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730994
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  errorMessage: 
+  indentLevel: 0
+  storyText: Well, it's hard, you know? I tried to encourage her to go to the administration
+    about it but she said that would make it worse, which is probably true, unfortunately.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730995
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  errorMessage: 
+  indentLevel: 0
+  storyText: Ugh, that's awful. What did you tell her?
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730996
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh, it's terrible! She's being bullied by some of the other girls; they
+    wrote some really nasty stuff about her on the walls of one of the girls' bathrooms.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730997
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh? What happened?
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730998
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  errorMessage: 
+  indentLevel: 0
+  storyText: One of my students came to me with a problem she's dealing with.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15730999
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 15730954}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &15731000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Do I tell them about the problem Jennifer came to me about? '
+  description: 
+  character: {fileID: 164532003}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15731001
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  errorMessage: 
+  indentLevel: 0
+  storyText: Hopefully they don't all choose the same two books!
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731002
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  errorMessage: 
+  indentLevel: 0
+  storyText: I let them choose two of the books we read this semester to compare and
+    discuss how they connected with the themes.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731003
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  errorMessage: 
+  indentLevel: 0
+  storyText: What do you have them writing about?
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731004
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'They''re going to be turning in their papers soon so I''m going to be
+    in grading hell for a bit.
+
+    {i}Laurie smiles.{/i}'
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731005
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  errorMessage: 
+  indentLevel: 0
+  storyText: Work was good, though we're approaching the end of the semester so some
+    of my students are feeling pretty stressed out.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731006
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  errorMessage: 
+  indentLevel: 0
+  storyText: How was work this week?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731007
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the class I'm taking
+  description: 
+  targetBlock: {fileID: 15730938}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &15731008
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  errorMessage: 
+  indentLevel: 0
+  storyText: He sounds adorable!
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731009
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  errorMessage: 
+  indentLevel: 0
+  storyText: I hope I can get a pet soon... it would be really nice to have a dog
+    around.
+  description: 
+  character: {fileID: 1612176988}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15731010
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 81
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh! I almost forgot to tell you! I named him Bugsy because he gets really
+    excited whenever he sees a bug. He is a mighty fly hunter!
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731011
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  errorMessage: 
+  indentLevel: 0
+  storyText: What's the new puppy's name?
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731012
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yes, her name was Olive. I still miss her, but I think it was time.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731013
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  errorMessage: 
+  indentLevel: 0
+  storyText: I still miss Olive. I wasn't sure about getting another dog after she
+    died, but now I'm glad I did.
+  description: 
+  character: {fileID: 164532003}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &15731014
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  errorMessage: 
+  indentLevel: 0
+  storyText: You had a dog before, right?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731015
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, he's a rescue dog. Some kind of corgi mix. Whatever he is, he's
+    really cute and very high energy! I hope he settles down when he gets a little
+    older.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731016
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  errorMessage: 
+  indentLevel: 0
+  storyText: What kind of dog is he? Did you get him from the shelter?
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731017
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Yeah, he''s really cute. And a troublemaker!
+
+    {i}Laurie smiles.{/i}'
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731018
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 73
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh? That's exciting!
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731019
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  errorMessage: 
+  indentLevel: 0
+  storyText: I got a new puppy!
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &15731020
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 15730953}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &15731021
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 88
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731022
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731023
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731024
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731025
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731026
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731027
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731028
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &15731029
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15730932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &25927803
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +3101,7 @@ Transform:
   - {fileID: 662778963}
   - {fileID: 15730933}
   - {fileID: 1693620354}
+  - {fileID: 2110148081}
   m_Father: {fileID: 0}
   m_RootOrder: 8
 --- !u!1 &259940500
@@ -2107,7 +4255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1693620353}
+  selectedFlowchart: {fileID: 15730936}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -2382,6 +4530,15 @@ GameObject:
   - 114: {fileID: 662779032}
   - 114: {fileID: 662779031}
   - 114: {fileID: 662779036}
+  - 114: {fileID: 662779039}
+  - 114: {fileID: 662779040}
+  - 114: {fileID: 662779047}
+  - 114: {fileID: 662779046}
+  - 114: {fileID: 662779045}
+  - 114: {fileID: 662779044}
+  - 114: {fileID: 662779043}
+  - 114: {fileID: 662779042}
+  - 114: {fileID: 662779041}
   m_Layer: 0
   m_Name: FlowchartJay
   m_TagString: Untagged
@@ -2424,6 +4581,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 662779047}
   - {fileID: 662778967}
   - {fileID: 662778968}
   - {fileID: 662778976}
@@ -2459,7 +4617,7 @@ MonoBehaviour:
   scrollPos: {x: -2, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 202
+  blockViewHeight: 569
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -2467,9 +4625,9 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662779038}
+  selectedBlock: {fileID: 662779035}
   selectedCommands:
-  - {fileID: 662779036}
+  - {fileID: 662779039}
   variables:
   - {fileID: 662778987}
   - {fileID: 662779016}
@@ -2481,7 +4639,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: 
-  nextItemId: 74
+  nextItemId: 83
 --- !u!114 &662778967
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2629,14 +4787,17 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 662778986}
+  - {fileID: 662779046}
   - {fileID: 662778983}
   - {fileID: 662778982}
   - {fileID: 662778981}
   - {fileID: 662778980}
   - {fileID: 662778979}
+  - {fileID: 662779045}
   - {fileID: 662778978}
   - {fileID: 662778977}
   - {fileID: 662778985}
+  - {fileID: 662779044}
   - {fileID: 662779002}
   - {fileID: 662779001}
   - {fileID: 662779000}
@@ -3061,6 +5222,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 662779014}
+  - {fileID: 662779043}
   - {fileID: 662779012}
   - {fileID: 662779011}
   - {fileID: 662779010}
@@ -3068,11 +5230,13 @@ MonoBehaviour:
   - {fileID: 662779008}
   - {fileID: 662779007}
   - {fileID: 662779006}
+  - {fileID: 662779042}
   - {fileID: 662779005}
   - {fileID: 662779004}
   - {fileID: 662779025}
   - {fileID: 662779003}
   - {fileID: 662779024}
+  - {fileID: 662779041}
   - {fileID: 662779017}
   - {fileID: 662779023}
   - {fileID: 662779022}
@@ -4190,10 +6354,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 662779032}
+  - {fileID: 662779039}
   - {fileID: 662779031}
 --- !u!114 &662779036
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -4205,8 +6370,8 @@ MonoBehaviour:
   itemId: 73
   errorMessage: 
   indentLevel: 0
-  storyText: Jay's story contains content that might be difficult for some players.
-    You may skip this content with no penalty if you choose.
+  storyText: Jay's story contains content that might be difficult for some players,
+    particularly if you suffer from PTSD & struggle with traumatic flashbacks.
   description: 
   character: {fileID: 1535347643}
   portrait: {fileID: 0}
@@ -4255,8 +6420,167 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 662779036}
+  - {fileID: 662779040}
   - {fileID: 662779034}
   - {fileID: 662779033}
+--- !u!114 &662779039
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  errorMessage: 
+  indentLevel: 0
+  storyText: Thank you for taking care of yourself. You have been awarded a self care
+    bonus, congratulations!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 1546832310}
+--- !u!114 &662779040
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  errorMessage: 
+  indentLevel: 0
+  storyText: You may skip this content with no penalty if you choose.
+  description: 
+  character: {fileID: 1535347643}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 131216742}
+--- !u!114 &662779041
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779042
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 81
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779043
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779044
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779045
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779046
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &662779047
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &896170396
 GameObject:
   m_ObjectHideFlags: 0
@@ -5003,7 +7327,7 @@ MonoBehaviour:
     height: 1065
   selectedBlock: {fileID: 1452200126}
   selectedCommands:
-  - {fileID: 1452200127}
+  - {fileID: 1452200148}
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -5058,7 +7382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 61
+    x: 62
     y: 116
     width: 120
     height: 40
@@ -5265,6 +7589,7 @@ GameObject:
   - 114: {fileID: 1529011471}
   - 114: {fileID: 1529011470}
   - 114: {fileID: 1529011469}
+  - 114: {fileID: 1529011484}
   m_Layer: 0
   m_Name: FlowchartChooser
   m_TagString: Untagged
@@ -5543,6 +7868,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1529011484}
   - {fileID: 1529011472}
   - {fileID: 1529011471}
   - {fileID: 1529011470}
@@ -5583,9 +7909,9 @@ MonoBehaviour:
     y: -383
     width: 1664
     height: 972
-  selectedBlock: {fileID: 1529011480}
+  selectedBlock: {fileID: 1529011481}
   selectedCommands:
-  - {fileID: 1529011475}
+  - {fileID: 1529011484}
   variables: []
   description: 
   stepPause: 0
@@ -5593,7 +7919,22 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: 
-  nextItemId: 13
+  nextItemId: 14
+--- !u!114 &1529011484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1529011467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &1535347641
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,6 +8515,16 @@ GameObject:
   - 114: {fileID: 1693620355}
   - 114: {fileID: 1693620386}
   - 114: {fileID: 1693620384}
+  - 114: {fileID: 1693620441}
+  - 114: {fileID: 1693620440}
+  - 114: {fileID: 1693620449}
+  - 114: {fileID: 1693620448}
+  - 114: {fileID: 1693620447}
+  - 114: {fileID: 1693620442}
+  - 114: {fileID: 1693620446}
+  - 114: {fileID: 1693620445}
+  - 114: {fileID: 1693620444}
+  - 114: {fileID: 1693620443}
   m_Layer: 0
   m_Name: FlowchartMary
   m_TagString: Untagged
@@ -6205,6 +8556,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1693620410}
+  - {fileID: 1693620441}
   - {fileID: 1693620397}
   - {fileID: 1693620355}
 --- !u!114 &1693620352
@@ -6235,7 +8587,7 @@ MonoBehaviour:
   scrollPos: {x: -3, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 252
+  blockViewHeight: 523
   zoom: .940000057
   scrollViewRect:
     serializedVersion: 2
@@ -6243,9 +8595,8 @@ MonoBehaviour:
     y: -732
     width: 1972.42554
     height: 1481
-  selectedBlock: {fileID: 1693620351}
-  selectedCommands:
-  - {fileID: 1693620410}
+  selectedBlock: {fileID: 1693620366}
+  selectedCommands: []
   variables:
   - {fileID: 1693620379}
   - {fileID: 1693620361}
@@ -6257,7 +8608,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: 
-  nextItemId: 161
+  nextItemId: 171
 --- !u!4 &1693620354
 Transform:
   m_ObjectHideFlags: 0
@@ -6338,6 +8689,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1693620448}
   - {fileID: 1693620364}
   - {fileID: 1693620358}
   - {fileID: 1693620356}
@@ -6427,6 +8779,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1693620359}
   - {fileID: 1693620433}
+  - {fileID: 1693620446}
   - {fileID: 1693620432}
   - {fileID: 1693620431}
   - {fileID: 1693620430}
@@ -6440,8 +8793,10 @@ MonoBehaviour:
   - {fileID: 1693620423}
   - {fileID: 1693620422}
   - {fileID: 1693620421}
+  - {fileID: 1693620445}
   - {fileID: 1693620439}
   - {fileID: 1693620438}
+  - {fileID: 1693620444}
   - {fileID: 1693620437}
   - {fileID: 1693620436}
   - {fileID: 1693620435}
@@ -6483,6 +8838,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1693620365}
+  - {fileID: 1693620443}
   - {fileID: 1693620389}
   - {fileID: 1693620408}
   - {fileID: 1693620407}
@@ -6516,6 +8872,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1693620386}
+  - {fileID: 1693620440}
   - {fileID: 1693620384}
 --- !u!114 &1693620364
 MonoBehaviour:
@@ -6594,6 +8951,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1693620442}
   - {fileID: 1693620367}
   - {fileID: 1693620390}
   - {fileID: 1693620374}
@@ -7102,6 +9460,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1693620378}
   - {fileID: 1693620383}
+  - {fileID: 1693620447}
   - {fileID: 1693620382}
   - {fileID: 1693620381}
   - {fileID: 1693620380}
@@ -7347,6 +9706,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1693620449}
   - {fileID: 1693620402}
   - {fileID: 1693620401}
   - {fileID: 1693620400}
@@ -7641,8 +10001,8 @@ MonoBehaviour:
   itemId: 155
   errorMessage: 
   indentLevel: 0
-  storyText: Mary's story contains content that might be difficult for some players.
-    You may skip this content with no penalty if you choose.
+  storyText: Mary's story contains content that might be difficult for some players,
+    especially if you have been dealing with relationship problems lately.
   description: 
   character: {fileID: 1535347643}
   portrait: {fileID: 0}
@@ -7670,7 +10030,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Mary's done talking
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1693620393}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1693620412
@@ -8368,6 +10728,179 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 1546832310}
+--- !u!114 &1693620440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  errorMessage: 
+  indentLevel: 0
+  storyText: Thank you for taking care of yourself. You have been awarded a self care
+    bonus, congratulations!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1693620441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  errorMessage: 
+  indentLevel: 0
+  storyText: You may skip this content with no penalty if you choose.
+  description: 
+  character: {fileID: 1535347643}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 131216742}
+--- !u!114 &1693620442
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620443
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 170
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620445
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620446
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620447
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 165
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620448
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 164
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620449
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 163
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &1824766334
 GameObject:
   m_ObjectHideFlags: 0
@@ -8472,6 +11005,85 @@ GameObject:
   - 114: {fileID: 1882276361}
   - 114: {fileID: 1882276360}
   - 114: {fileID: 1882276359}
+  - 114: {fileID: 1882276369}
+  - 114: {fileID: 1882276368}
+  - 114: {fileID: 1882276367}
+  - 114: {fileID: 1882276366}
+  - 114: {fileID: 1882276365}
+  - 114: {fileID: 1882276364}
+  - 114: {fileID: 1882276363}
+  - 114: {fileID: 1882276362}
+  - 114: {fileID: 1882276372}
+  - 114: {fileID: 1882276373}
+  - 114: {fileID: 1882276375}
+  - 114: {fileID: 1882276376}
+  - 114: {fileID: 1882276374}
+  - 114: {fileID: 1882276386}
+  - 114: {fileID: 1882276385}
+  - 114: {fileID: 1882276384}
+  - 114: {fileID: 1882276383}
+  - 114: {fileID: 1882276382}
+  - 114: {fileID: 1882276381}
+  - 114: {fileID: 1882276380}
+  - 114: {fileID: 1882276379}
+  - 114: {fileID: 1882276378}
+  - 114: {fileID: 1882276377}
+  - 114: {fileID: 1882276370}
+  - 114: {fileID: 1882276413}
+  - 114: {fileID: 1882276412}
+  - 114: {fileID: 1882276411}
+  - 114: {fileID: 1882276390}
+  - 114: {fileID: 1882276406}
+  - 114: {fileID: 1882276410}
+  - 114: {fileID: 1882276409}
+  - 114: {fileID: 1882276408}
+  - 114: {fileID: 1882276407}
+  - 114: {fileID: 1882276389}
+  - 114: {fileID: 1882276387}
+  - 114: {fileID: 1882276371}
+  - 114: {fileID: 1882276388}
+  - 114: {fileID: 1882276404}
+  - 114: {fileID: 1882276405}
+  - 114: {fileID: 1882276403}
+  - 114: {fileID: 1882276402}
+  - 114: {fileID: 1882276401}
+  - 114: {fileID: 1882276400}
+  - 114: {fileID: 1882276398}
+  - 114: {fileID: 1882276399}
+  - 114: {fileID: 1882276397}
+  - 114: {fileID: 1882276395}
+  - 114: {fileID: 1882276396}
+  - 114: {fileID: 1882276394}
+  - 114: {fileID: 1882276393}
+  - 114: {fileID: 1882276392}
+  - 114: {fileID: 1882276391}
+  - 114: {fileID: 1882276430}
+  - 114: {fileID: 1882276429}
+  - 114: {fileID: 1882276428}
+  - 114: {fileID: 1882276427}
+  - 114: {fileID: 1882276426}
+  - 114: {fileID: 1882276425}
+  - 114: {fileID: 1882276424}
+  - 114: {fileID: 1882276423}
+  - 114: {fileID: 1882276422}
+  - 114: {fileID: 1882276421}
+  - 114: {fileID: 1882276420}
+  - 114: {fileID: 1882276419}
+  - 114: {fileID: 1882276417}
+  - 114: {fileID: 1882276416}
+  - 114: {fileID: 1882276415}
+  - 114: {fileID: 1882276418}
+  - 114: {fileID: 1882276414}
+  - 114: {fileID: 1882276440}
+  - 114: {fileID: 1882276439}
+  - 114: {fileID: 1882276435}
+  - 114: {fileID: 1882276434}
+  - 114: {fileID: 1882276433}
+  - 114: {fileID: 1882276438}
+  - 114: {fileID: 1882276437}
+  - 114: {fileID: 1882276436}
+  - 114: {fileID: 1882276431}
+  - 114: {fileID: 1882276432}
   m_Layer: 0
   m_Name: FlowchartCarrie
   m_TagString: Untagged
@@ -8505,7 +11117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68
+    x: 67
     y: 69
     width: 120
     height: 40
@@ -8518,6 +11130,7 @@ MonoBehaviour:
   - {fileID: 1882276361}
   - {fileID: 1882276360}
   - {fileID: 1882276359}
+  - {fileID: 1882276373}
 --- !u!114 &1882276351
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8551,20 +11164,23 @@ MonoBehaviour:
   scrollViewRect:
     serializedVersion: 2
     x: -350
-    y: -350
-    width: 1406
-    height: 979
-  selectedBlock: {fileID: 1882276350}
+    y: -391
+    width: 1529
+    height: 1020
+  selectedBlock: {fileID: 1882276390}
   selectedCommands:
-  - {fileID: 1882276359}
-  variables: []
+  - {fileID: 1882276430}
+  variables:
+  - {fileID: 1882276364}
+  - {fileID: 1882276363}
+  - {fileID: 1882276362}
   description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
   localizationId: 
-  nextItemId: 10
+  nextItemId: 88
 --- !u!114 &1882276353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8579,9 +11195,9 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: Hi, I'm Carrie
+  storyText: My week was really great! Very hectic but I'm feeling good about things.
   description: 
-  character: {fileID: 1895239322}
+  character: {fileID: 549248041}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8590,7 +11206,7 @@ MonoBehaviour:
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
-  setSayDialog: {fileID: 1546832310}
+  setSayDialog: {fileID: 600837723}
 --- !u!114 &1882276354
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8621,8 +11237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 438
-    y: 98
+    x: 641
+    y: 170
     width: 120
     height: 40
   itemId: 5
@@ -8644,15 +11260,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274
-    y: 165
+    x: 266
+    y: 181
     width: 120
     height: 40
   itemId: 4
   blockName: Garden
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1882276370}
+  - {fileID: 1882276418}
+  - {fileID: 1882276417}
+  - {fileID: 1882276416}
+  - {fileID: 1882276415}
+  - {fileID: 1882276414}
+  - {fileID: 1882276440}
+  - {fileID: 1882276439}
+  - {fileID: 1882276438}
+  - {fileID: 1882276437}
+  - {fileID: 1882276436}
+  - {fileID: 1882276432}
+  - {fileID: 1882276431}
 --- !u!114 &1882276357
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8671,10 +11300,21 @@ MonoBehaviour:
     width: 120
     height: 40
   itemId: 3
-  blockName: Girlfriend
+  blockName: Lindsay
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1882276413}
+  - {fileID: 1882276412}
+  - {fileID: 1882276411}
+  - {fileID: 1882276410}
+  - {fileID: 1882276409}
+  - {fileID: 1882276408}
+  - {fileID: 1882276407}
+  - {fileID: 1882276389}
+  - {fileID: 1882276388}
+  - {fileID: 1882276387}
+  - {fileID: 1882276371}
 --- !u!114 &1882276358
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8688,18 +11328,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 268
-    y: 67
+    x: 267
+    y: 68
     width: 120
     height: 40
   itemId: 2
   blockName: Catering
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1882276372}
+  - {fileID: 1882276376}
+  - {fileID: 1882276375}
+  - {fileID: 1882276374}
+  - {fileID: 1882276386}
+  - {fileID: 1882276385}
+  - {fileID: 1882276384}
+  - {fileID: 1882276383}
+  - {fileID: 1882276382}
+  - {fileID: 1882276381}
+  - {fileID: 1882276380}
+  - {fileID: 1882276435}
+  - {fileID: 1882276434}
+  - {fileID: 1882276433}
+  - {fileID: 1882276379}
+  - {fileID: 1882276378}
+  - {fileID: 1882276377}
 --- !u!114 &1882276359
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882276348}
@@ -8711,14 +11368,14 @@ MonoBehaviour:
   itemId: 9
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Talk about gardening
   description: 
   targetBlock: {fileID: 1882276356}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1882276360
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882276348}
@@ -8730,14 +11387,14 @@ MonoBehaviour:
   itemId: 8
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Talk about your girlfriend
   description: 
   targetBlock: {fileID: 1882276357}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1882276361
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882276348}
@@ -8749,11 +11406,1936 @@ MonoBehaviour:
   itemId: 7
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: Talk about the catering business
   description: 
   targetBlock: {fileID: 1882276358}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
+--- !u!114 &1882276362
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Garden
+  value: 0
+--- !u!114 &1882276363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Fight
+  value: 0
+--- !u!114 &1882276364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Catering
+  value: 0
+--- !u!114 &1882276365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 1529011483}
+  targetBlock: {fileID: 1529011481}
+  callMode: 0
+--- !u!114 &1882276366
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  errorMessage: 
+  indentLevel: 0
+  storyText: '[Whatever feels comfortable, Laurie. I''m glad to hear your week went
+    well.]'
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276367
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  errorMessage: 
+  indentLevel: 0
+  storyText: "[Nothing much to say this week, I'm afraid. My week was pretty uneventful.
+    \n{i}Laurie smiles.{/i}]"
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  errorMessage: 
+  indentLevel: 0
+  storyText: '[Yeah, I''d rather not talk about my week right now, it just feels like
+    crowing.]'
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &1882276369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 371
+    y: 10
+    width: 120
+    height: 40
+  itemId: 10
+  blockName: Nothing
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1882276368}
+  - {fileID: 1882276367}
+  - {fileID: 1882276366}
+  - {fileID: 1882276365}
+--- !u!114 &1882276370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1882276362}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1882276371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  errorMessage: 
+  indentLevel: 0
+  text: Carrie's done talking
+  description: 
+  targetBlock: {fileID: 1882276355}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276372
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1882276364}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1882276373
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  errorMessage: 
+  indentLevel: 0
+  text: I don't really have anything I need to talk about
+  description: 
+  targetBlock: {fileID: 1882276369}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276374
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  errorMessage: 
+  indentLevel: 0
+  storyText: That's great! Did you have a lot of events this week? Or just one big
+    one?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276375
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'My catering business is really taking off! I feel like I hardly had
+    time to breathe this week.
+
+    {i}Carrie smiles.{/i}'
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276376
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1882276377
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  errorMessage: 
+  indentLevel: 0
+  text: Carrie's done talking
+  description: 
+  targetBlock: {fileID: 1882276355}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276378
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about gardening
+  description: 
+  targetBlock: {fileID: 1882276356}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276379
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about your girlfriend
+  description: 
+  targetBlock: {fileID: 1882276357}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276380
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh, they were fine. Mostly the usual business dinners and lunches, fairly
+    standard.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276381
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  errorMessage: 
+  indentLevel: 0
+  storyText: And the other events? How did they turn out?
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276382
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  errorMessage: 
+  indentLevel: 0
+  storyText: The bride was really apologetic, poor thing. I felt kind of sorry for
+    her. But I think he was mollified eventually.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276383
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  errorMessage: 
+  indentLevel: 0
+  storyText: Well, the groom turned out to be really finicky, but no one had said
+    anything to me about it beforehand, so I had to put together something special
+    for him at the last minute.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276384
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  errorMessage: 
+  indentLevel: 0
+  storyText: Mostly?
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276385
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  errorMessage: 
+  indentLevel: 0
+  storyText: I had to hire staff for the wedding too, which I've only done a few times
+    before, but it mostly worked out fine.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276386
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  errorMessage: 
+  indentLevel: 0
+  storyText: I had a wedding and a couple of smaller events, so it was really hectic!
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about gardening
+  description: 
+  targetBlock: {fileID: 1882276356}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the catering business
+  description: 
+  targetBlock: {fileID: 1882276358}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the fight
+  description: 
+  targetBlock: {fileID: 1882276390}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 517
+    y: 70
+    width: 120
+    height: 40
+  itemId: 36
+  blockName: Fight
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1882276406}
+  - {fileID: 1882276405}
+  - {fileID: 1882276404}
+  - {fileID: 1882276403}
+  - {fileID: 1882276402}
+  - {fileID: 1882276401}
+  - {fileID: 1882276400}
+  - {fileID: 1882276399}
+  - {fileID: 1882276398}
+  - {fileID: 1882276397}
+  - {fileID: 1882276396}
+  - {fileID: 1882276395}
+  - {fileID: 1882276394}
+  - {fileID: 1882276393}
+  - {fileID: 1882276392}
+  - {fileID: 1882276391}
+  - {fileID: 1882276430}
+  - {fileID: 1882276429}
+  - {fileID: 1882276428}
+  - {fileID: 1882276427}
+  - {fileID: 1882276426}
+  - {fileID: 1882276425}
+  - {fileID: 1882276424}
+  - {fileID: 1882276423}
+  - {fileID: 1882276422}
+  - {fileID: 1882276421}
+  - {fileID: 1882276420}
+  - {fileID: 1882276419}
+--- !u!114 &1882276391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  errorMessage: 
+  indentLevel: 0
+  storyText: I don't think I'd really spent much time around her when she'd been writing
+    before - she'd usually take time to transition out of writing headspace before
+    we'd get together.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  errorMessage: 
+  indentLevel: 0
+  storyText: No, though I thought she was because she seemed sort of brusque. She
+    told me later that she had been writing all day so her head was still half in
+    Writer Land, so that was why it seemed that way to me.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  errorMessage: 
+  indentLevel: 0
+  storyText: Was she angry?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  errorMessage: 
+  indentLevel: 0
+  storyText: But I'd totally forgotten about it, so at first I had no idea what she
+    was talking about. I thought my old one was still in our bathroom and that was
+    what she was angry about.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  errorMessage: 
+  indentLevel: 0
+  storyText: I'd just gotten home and she asked me about the soap dispenser in the
+    guest bathroom. She had a pretty nice one that I put in our bathroom so I put
+    my old one in the guest bathroom.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1882276397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &1882276398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  errorMessage: 
+  indentLevel: 1
+  storyText: I'm sure it didn't help that I was really tired after the wedding and
+    still a little irritated about trying to get that groom fed.
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &1882276399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1882276364}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1882276400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  errorMessage: 
+  indentLevel: 0
+  storyText: Okay, fine. But I still feel silly about it, because in retrospect it
+    was just ridiculous.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Yeah, it''s pretty normal.
+
+    {i}Laurie smiles.{/i}'
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}Mary laughs.{/i}
+
+    Oh, c''mon! We all know how dumb fights happen in every relationship.'
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  errorMessage: 
+  indentLevel: 0
+  storyText: We did have a really dumb fight. Promise me y'all won't laugh, okay?
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1882276405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh what the hell, might as well talk about it.
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &1882276406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1882276363}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1882276407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  errorMessage: 
+  indentLevel: 0
+  storyText: Do I tell them about the fight we had? It was such a stupid petty thing
+    to fight over...
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &1882276408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'But you never know what it''s really like until it becomes a reality.
+
+    {i}Carrie smiles.{/i}
+
+    But it''s going pretty well.'
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  errorMessage: 
+  indentLevel: 0
+  storyText: It's been a couple of weeks now. I mean, we've been dating for a couple
+    of years so I think we were in agreement that the time was right.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh, that's right! You just moved in together, didn't you? How long ago
+    was that?
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276411
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  errorMessage: 
+  indentLevel: 0
+  storyText: Things are pretty good, though we're still adjusting to living together.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276412
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  errorMessage: 
+  indentLevel: 0
+  storyText: How are things with Lindsay?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276413
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1882276414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  errorMessage: 
+  indentLevel: 0
+  storyText: Well, I got some heirloom tomatoes and a few more herbs. I'm still not
+    quite sure about the ph of the soil there, but we'll see.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  errorMessage: 
+  indentLevel: 0
+  storyText: What kind of plants?
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  errorMessage: 
+  indentLevel: 0
+  storyText: Nice! I have such a black thumb, it's really great to hear not everyone
+    does!
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 73
+  errorMessage: 
+  indentLevel: 0
+  storyText: Despite everything being so hectic, I managed to add a few more plants
+    to the garden.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1882276419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  errorMessage: 
+  indentLevel: 0
+  text: Carrie's done talking
+  description: 
+  targetBlock: {fileID: 1882276355}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about gardening
+  description: 
+  targetBlock: {fileID: 1882276356}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the catering business
+  description: 
+  targetBlock: {fileID: 1882276358}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  errorMessage: 
+  indentLevel: 0
+  storyText: I'm glad it was over so quickly. In the early days of our relationship,
+    something like that would have probably led to us fighting for hours...
+  description: 
+  character: {fileID: 549248041}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &1882276423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}Carrie nods.{/i}'
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, those sorts of minor conflicts are to be expected when you adjust
+    to a new level of commitment and intimacy.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, I just felt silly for being snippy with her, and really surprised
+    that she got so upset right away. But I understood it after she explained.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}Ellen smiles.{/i}
+
+    It sounds like you resolved it pretty quickly.'
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  errorMessage: 
+  indentLevel: 0
+  storyText: Aww, that's really sweet.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  errorMessage: 
+  indentLevel: 0
+  storyText: Nothing really. I apologized and we explained what was going on with
+    each of us and then we kissed and made up.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh no! Then what happened?
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  errorMessage: 
+  indentLevel: 0
+  storyText: Anyway, I snapped at her - I don't remember exactly what I said now -
+    and then she started crying, which took me by surprise. I felt awful!
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  errorMessage: 
+  indentLevel: 0
+  text: Carrie's done talking
+  description: 
+  targetBlock: {fileID: 1882276355}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about your girlfriend
+  description: 
+  targetBlock: {fileID: 1882276357}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, it does. I feel really proud of myself that it's working out so
+    far. It's not easy! But I'm really enjoying it.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 81
+  errorMessage: 
+  indentLevel: 0
+  storyText: That must feel really good.
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  errorMessage: 
+  indentLevel: 0
+  storyText: Who knew that all that cooking I was doing to self soothe would eventually
+    turn into a career for me?
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  errorMessage: 
+  indentLevel: 0
+  text: Talk about the catering business
+  description: 
+  targetBlock: {fileID: 1882276358}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1882276437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  errorMessage: 
+  indentLevel: 0
+  storyText: That's so fantastic.
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  errorMessage: 
+  indentLevel: 0
+  storyText: But if the kitchen garden does well, I might think about planting something
+    ornamental.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  errorMessage: 
+  indentLevel: 0
+  storyText: Mostly things we can eat, for now. It was my love of cooking and wanting
+    to have fresh herbs on hand that motivated me to try my hand at gardening in the
+    first place.
+  description: 
+  character: {fileID: 1895239322}
+  portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1882276440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  errorMessage: 
+  indentLevel: 0
+  storyText: Do you have any decorative plants or are you focusing on things you can
+    eat?
+  description: 
+  character: {fileID: 1430934121}
+  portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!1 &1895239321
 GameObject:
   m_ObjectHideFlags: 0
@@ -9096,6 +13678,105 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
   portraitsFace: 0
   description: 
+--- !u!1 &2110148080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2110148081}
+  - 114: {fileID: 2110148084}
+  - 114: {fileID: 2110148083}
+  - 114: {fileID: 2110148082}
+  m_Layer: 0
+  m_Name: FlowchartEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2110148081
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 257239855}
+  m_RootOrder: 6
+--- !u!114 &2110148082
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 67
+    y: 68
+    width: 120
+    height: 40
+  itemId: 0
+  blockName: Self Care
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &2110148083
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 11417010, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 0}
+--- !u!114 &2110148084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollPos: {x: -45, y: 16}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 400
+  zoom: 1
+  scrollViewRect:
+    serializedVersion: 2
+    x: -343
+    y: -340
+    width: 1114
+    height: 859
+  selectedBlock: {fileID: 2110148082}
+  selectedCommands: []
+  variables: []
+  description: 
+  stepPause: 0
+  colorCommands: 1
+  hideComponents: 1
+  saveSelection: 1
+  localizationId: 
+  nextItemId: 1
 --- !u!1 &2118928626
 GameObject:
   m_ObjectHideFlags: 0
