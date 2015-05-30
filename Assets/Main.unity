@@ -378,7 +378,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartLaurie
   nextItemId: 118
 --- !u!114 &15730937
 MonoBehaviour:
@@ -3494,7 +3494,7 @@ RectTransform:
   m_Children:
   - {fileID: 597567162}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3790,7 +3790,7 @@ Transform:
   - {fileID: 1535347642}
   - {fileID: 977636597}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &257239854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,7 +3824,7 @@ Transform:
   - {fileID: 1693620354}
   - {fileID: 2110148081}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!1 &259940500
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,7 +3867,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &304351658
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,7 +4032,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &497806101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,7 +4795,7 @@ RectTransform:
   m_Children:
   - {fileID: 520359679}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -5185,7 +5185,7 @@ RectTransform:
   m_Children:
   - {fileID: 69950706}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -5655,7 +5655,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartJay
   nextItemId: 189
 --- !u!114 &662778967
 MonoBehaviour:
@@ -9420,7 +9420,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779117
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9856,7 +9856,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779134
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9882,7 +9882,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779135
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9901,7 +9901,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779136
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9920,7 +9920,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779137
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9939,7 +9939,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779138
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9965,7 +9965,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779139
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -9992,7 +9992,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779140
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10019,7 +10019,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779141
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10046,7 +10046,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779142
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10074,7 +10074,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779143
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10100,7 +10100,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779144
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10127,7 +10127,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779145
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10401,7 +10401,7 @@ Transform:
   - {fileID: 633169643}
   - {fileID: 600640429}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &917414078
 GameObject:
   m_ObjectHideFlags: 0
@@ -11177,7 +11177,7 @@ RectTransform:
   m_Children:
   - {fileID: 937141418}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -11366,7 +11366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &1430934119
 GameObject:
   m_ObjectHideFlags: 0
@@ -11651,7 +11651,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartIntro
   nextItemId: 63
 --- !u!4 &1452200124
 Transform:
@@ -12368,7 +12368,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartChooser
   nextItemId: 21
 --- !u!114 &1529011484
 MonoBehaviour:
@@ -12571,7 +12571,7 @@ RectTransform:
   m_Children:
   - {fileID: 503542373}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -13066,6 +13066,48 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
   portraitsFace: 0
   description: 
+--- !u!1 &1612146041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 149266, guid: ffbd0831d997545eab75c364da082c1b, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1612146043}
+  - 114: {fileID: 1612146042}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1612146042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11438504, guid: ffbd0831d997545eab75c364da082c1b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612146041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 0}
+--- !u!4 &1612146043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 480768, guid: ffbd0831d997545eab75c364da082c1b, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612146041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &1612176986
 GameObject:
   m_ObjectHideFlags: 0
@@ -13331,7 +13373,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartMary
   nextItemId: 200
 --- !u!4 &1693620354
 Transform:
@@ -16689,7 +16731,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1 &1876381812
 GameObject:
   m_ObjectHideFlags: 0
@@ -16968,7 +17010,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartCarrie
   nextItemId: 109
 --- !u!114 &1882276353
 MonoBehaviour:
@@ -20300,7 +20342,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: FlowchartEnd
   nextItemId: 46
 --- !u!114 &2110148085
 MonoBehaviour:
@@ -21017,7 +21059,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2110148114
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -21044,7 +21086,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2110148115
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}

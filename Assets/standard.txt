@@ -1,0 +1,1102 @@
+#SAY.FlowchartLaurie.1.Laurie is thinking...
+My week has been really good! I'm taking some interesting classes, I adopted a really cute dog from the shelter and I was able to help a student with her problems.
+
+#SAY.FlowchartLaurie.10.Laurie is thinking...
+I feel a little guilty talking about how good my life has been when I know some of the others are having a tough time, but maybe it's as important to talk about the good times as the bad.
+
+#MENU.FlowchartLaurie.6
+Talk about the class I'm taking
+
+#MENU.FlowchartLaurie.7
+Talk about my students
+
+#MENU.FlowchartLaurie.8
+Tell them about the new puppy
+
+#MENU.FlowchartLaurie.11
+I don't really have anything to talk about
+
+#SAY.FlowchartLaurie.18.Laurie
+So I'm wrapping up that class I'm taking in another week or two.
+
+#SAY.FlowchartLaurie.19.Carrie
+This is the one you needed to take to keep up your teaching credential, yeah?
+
+#SAY.FlowchartLaurie.20.Laurie
+Yeah, that's right. Sometimes they end up being pretty terrible and boring, but this one is actually pretty interesting, I think.
+
+#SAY.FlowchartLaurie.21.Mary
+What's it about?
+
+#SAY.FlowchartLaurie.22.Laurie
+It's about the effects of trauma on learning. So you can see why it would be personally relevant.
+
+#SAY.FlowchartLaurie.23.Ellen
+{i}Ellen smiles.{/i}
+Oh yes, I can see that. Have you talked about any of your experiences in the context of the class?
+
+#SAY.FlowchartLaurie.24.Laurie is thinking...
+It's always so hard to talk about my own trauma in a professional context. I worry about how it might change how people see me if they know what I went through.
+
+#SAY.FlowchartLaurie.25.Laurie
+Yes, actually, I ended up writing about it for our most recent assignment. That was kind of hard but ultimately helpful, I think?
+
+#SAY.FlowchartLaurie.26.Jay
+Oh yeah, I can imagine.
+
+#SAY.FlowchartLaurie.27.Ellen
+How did the instructor respond?
+
+#SAY.FlowchartLaurie.28.Laurie
+She was really positive and supportive. She thanked me for sharing something so personal and said that she imagined it was probably difficult to talk about.
+
+#SAY.FlowchartLaurie.29.Laurie
+She also said she thought my experiences would make me better at supporting any of my students who had been traumatized because I would be able to relate to them.
+
+#SAY.FlowchartLaurie.30.Ellen
+That's definitely been true for me in my work. But it's important to keep in mind that you will have to do extra work to take care of yourself.
+
+#SAY.FlowchartLaurie.31.Ellen
+While it can be very healing to connect with people who share those experiences with you, it can also be really exhausting and sometimes triggering.
+
+#SAY.FlowchartLaurie.32.Laurie
+{i}Laurie nods.{/i}
+Yeah, that makes a lot of sense.
+
+#MENU.FlowchartLaurie.33
+Talk about my students
+
+#MENU.FlowchartLaurie.34
+Talk about the new puppy
+
+#MENU.FlowchartLaurie.36
+Laurie's done talking
+
+#SAY.FlowchartLaurie.37.Ellen
+How was work this week?
+
+#SAY.FlowchartLaurie.38.Laurie
+Work was good, though we're approaching the end of the semester so some of my students are feeling pretty stressed out.
+
+#SAY.FlowchartLaurie.39.Laurie
+They're going to be turning in their papers soon so I'm going to be in grading hell for a bit.
+{i}Laurie smiles.{/i}
+
+#SAY.FlowchartLaurie.40.Jay
+What do you have them writing about?
+
+#SAY.FlowchartLaurie.41.Laurie
+I let them choose two of the books we read this semester to compare and discuss how they connected with the themes.
+
+#SAY.FlowchartLaurie.42.Laurie
+Hopefully they don't all choose the same two books!
+
+#SAY.FlowchartLaurie.43.Laurie is thinking...
+Do I tell them about the problem Jennifer came to me about?
+
+#MENU.FlowchartLaurie.49
+Talk about Jennifer
+
+#MENU.FlowchartLaurie.48
+Talk about the class I'm taking
+
+#MENU.FlowchartLaurie.51
+Talk about the new puppy
+
+#MENU.FlowchartLaurie.52
+Laurie's done talking
+
+#SAY.FlowchartLaurie.72.Laurie
+I got a new puppy!
+
+#SAY.FlowchartLaurie.73.Ellen
+Oh? That's exciting!
+
+#SAY.FlowchartLaurie.74.Laurie
+Yeah, he's really cute. And a troublemaker!
+{i}Laurie smiles.{/i}
+
+#SAY.FlowchartLaurie.75.Mary
+What kind of dog is he? Did you get him from the shelter?
+
+#SAY.FlowchartLaurie.76.Laurie
+Yeah, he's a rescue dog. Some kind of corgi mix. Whatever he is, he's really cute and very high energy! I hope he settles down when he gets a little older.
+
+#SAY.FlowchartLaurie.77.Ellen
+You had a dog before, right?
+
+#SAY.FlowchartLaurie.78.Laurie is thinking...
+I still miss Olive. I wasn't sure about getting another dog after she died, but now I'm glad I did.
+
+#SAY.FlowchartLaurie.79.Laurie
+Yes, her name was Olive. I still miss her, but I think it was time.
+
+#SAY.FlowchartLaurie.80.Jay
+What's the new puppy's name?
+
+#SAY.FlowchartLaurie.81.Laurie
+Oh! I almost forgot to tell you! I named him Bugsy because he gets really excited whenever he sees a bug. He is a mighty fly hunter!
+
+#SAY.FlowchartLaurie.84.Jay is thinking...
+I hope I can get a pet soon... it would be really nice to have a dog around.
+
+#SAY.FlowchartLaurie.82.Jay
+He sounds adorable!
+
+#MENU.FlowchartLaurie.85
+Talk about the class I'm taking
+
+#MENU.FlowchartLaurie.87
+Talk about my students
+
+#MENU.FlowchartLaurie.86
+Laurie's done talking
+
+#SAY.FlowchartLaurie.13.Laurie is thinking...
+Yeah, I'd rather not talk about my week right now, it just feels like crowing.
+
+#SAY.FlowchartLaurie.14.Laurie
+Nothing much to say this week, I'm afraid. My week was pretty uneventful. 
+{i}Laurie smiles.{/i}
+
+#SAY.FlowchartLaurie.15.Ellen
+Whatever feels comfortable, Laurie. I'm glad to hear your week went well.
+
+#SAY.FlowchartLaurie.53.Laurie
+One of my students came to me with a problem she's dealing with.
+
+#SAY.FlowchartLaurie.54.Carrie
+Oh? What happened?
+
+#SAY.FlowchartLaurie.55.Laurie
+Oh, it's terrible! She's being bullied by some of the other girls; they wrote some really nasty stuff about her on the walls of one of the girls' bathrooms.
+
+#SAY.FlowchartLaurie.56.Jay
+Ugh, that's awful. What did you tell her?
+
+#SAY.FlowchartLaurie.57.Laurie
+Well, it's hard, you know? I tried to encourage her to go to the administration about it but she said that would make it worse, which is probably true, unfortunately.
+
+#SAY.FlowchartLaurie.58.Laurie
+I also talked to her about talking to the girls who were doing it but it doesn't sound like that was a good option either.
+
+#SAY.FlowchartLaurie.59.Laurie
+I also offered to talk to them myself, and she said she would think about it. Mostly I just listened and told her that what they were doing wasn't right and she doesn't deserve it.
+
+#SAY.FlowchartLaurie.60.Carrie is thinking...
+I wish I'd had a teacher like Laurie when I was in high school...
+
+#SAY.FlowchartLaurie.61.Carrie
+I hope it doesn't get any worse for her.
+
+#SAY.FlowchartLaurie.62.Laurie
+Yeah, me too. If it continues I'm going to see if we can talk about going to mediation or something.
+
+#SAY.FlowchartLaurie.63.Laurie
+I'm considering reaching out to the other girls' parents to see what's going on there, hopefully without tipping them off that she came to me.
+
+#SAY.FlowchartLaurie.64.Laurie
+She and I are also going to meet with her counselor this week to discuss the situation.
+
+#SAY.FlowchartLaurie.65.Ellen
+That sounds like a good plan.
+
+#SAY.FlowchartLaurie.66.Laurie
+Yeah, I hope it helps.
+
+#MENU.FlowchartLaurie.67
+Talk about the class I'm taking
+
+#MENU.FlowchartLaurie.68
+Tell them about the new puppy
+
+#MENU.FlowchartLaurie.70
+Laurie's done talking
+
+#SAY.FlowchartJay.1.Ellen
+How did your week go, Jay?
+
+#SAY.FlowchartJay.2.Jay
+Oh, you know, up and down... just your average week for someone with PTSD.
+
+#SAY.FlowchartJay.7.Jay is thinking...
+Actually, this week was really stressful. I had a complete meltdown and I feel really bad about it.
+
+#SAY.FlowchartJay.5.Jay is thinking...
+I at least got some writing done, I could talk about that. Otherwise there was that stupid movie and everything that followed, yuck.
+
+#MENU.FlowchartJay.8
+Talk about your writing
+
+#MENU.FlowchartJay.9
+Talk about going to the movies
+
+#MENU.FlowchartJay.10
+Tell them about your meltdown
+
+#SAY.FlowchartJay.12.Jay
+So... I went on a date this week with this pretty cute guy. His name is Nate.
+
+#SAY.FlowchartJay.13.Mary
+Nice! How did it go?
+
+#SAY.FlowchartJay.15.Mary is thinking...
+I hope her date is a lot more genuine than Richard turned out to be...
+
+#SAY.FlowchartJay.17.Jay
+At first it was pretty great. We went to dinner and had a nice conversation.
+
+#SAY.FlowchartJay.18.Jay
+But things went kind of sideways when we got to the movie.
+
+#SAY.FlowchartJay.20.Jay is thinking...
+I really wish I had looked up the movie before we went...
+
+#SAY.FlowchartJay.22.Mary
+Uh oh... what happened?
+
+#SAY.FlowchartJay.23.Jay
+We went to see IT PURSUES.
+
+#SAY.FlowchartJay.24.Carrie
+{i}Carrie looks puzzled.{/i}
+
+#SAY.FlowchartJay.25.Laurie
+Oh no!
+
+#SAY.FlowchartJay.26.Jay
+Um... it turns out that movie is way too reminiscent of my stalker experience.
+
+#SAY.FlowchartJay.27.Jay
+So I ended up telling Nate that I wasn't feeling well partway through the movie and asking if we could leave.
+
+#SAY.FlowchartJay.29.Ellen
+How did he take it?
+
+#SAY.FlowchartJay.30.Jay
+Honestly, I think he was probably pretty annoyed, though he didn't show it.
+
+#SAY.FlowchartJay.31.Jay
+Especially when I told him I just wanted to go home, I couldn't bring myself to tell him what was going on.
+
+#SAY.FlowchartJay.32.Laurie
+Yeah, it's always really hard to figure out who you can trust with these kinds of things.
+
+#SAY.FlowchartJay.33.Jay
+Yeah, I dunno... 
+What do you think? Should I have explained it?
+
+#SAY.FlowchartJay.34.Jay is thinking...
+I think it would have been really awkward, we only just met... and I was a terrible weepy mess when I finally got home.
+
+#MENU.FlowchartJay.37
+I think you should tell him.
+
+#MENU.FlowchartJay.38
+No, it's too soon to talk about it
+
+#SAY.FlowchartJay.115.Jay
+Despite everything else that went on, I did manage to get some writing done. I feel pretty good about that.
+
+#SAY.FlowchartJay.117.Ellen
+That's great! Do you want to tell us about it?
+
+#SAY.FlowchartJay.118.Jay
+Okay, but let me know if I'm starting to ramble. I sometimes don't notice until it's too late that people's eyes are glazing over.
+{i}Jay smiles.{/i}
+
+#SAY.FlowchartJay.119.Carrie
+I think it's fascinating! You're so creative, it always impresses me.
+
+#SAY.FlowchartJay.120.Jay
+{i}Jay blushes.{/i}
+Thank you, that's really kind.
+
+#SAY.FlowchartJay.121.Mary
+It's the truth though!
+
+#SAY.FlowchartJay.122.Laurie
+Yes, I'm really curious. And I think I might have missed you talking about it last time because I had a scheduling conflict. Do you mind telling us again what you're working on?
+
+#SAY.FlowchartJay.123.Jay
+Well, it's a science fiction novel, about a woman who's the pilot of s ship on a scouting mission. The rest of the crew are in cryo-sleep and the ship's AI wakes her in intervals to check on their course.
+
+#SAY.FlowchartJay.125.Jay
+A lot of it is just her talking to the AI and thinking about a lover she left behind. I'm not going to spoil it but one of the questions left unanswered through most of the story is why.
+
+#SAY.FlowchartJay.126.Jay
+This week I ended up writing a particularly emotional passage talking about her previous relationships. It was oddly soothing, after the rest of the stress of the week.
+
+#SAY.FlowchartJay.127.Carrie
+I can't wait to read it.
+
+#SAY.FlowchartJay.128.Mary
+Neither can I!
+
+#SAY.FlowchartJay.129.Jay
+Thank you, that's really kind.
+
+#SAY.FlowchartJay.130.Jay is thinking...
+Ugh, I hope they aren't disappointed if they actually do end up reading it. People always say that but they seldom actually follow through in my experience.
+
+#MENU.FlowchartJay.131
+Talk about going to the movies
+
+#MENU.FlowchartJay.132
+Tell them about your meltdown
+
+#MENU.FlowchartJay.176
+Jay is done talking
+
+#SAY.FlowchartJay.133.Jay
+I... I actually had a really hard week this week.
+
+#SAY.FlowchartJay.137.Jay
+That whole thing with the movie just freaked me out and I felt awful for days afterwards.
+
+#SAY.FlowchartJay.140.Jay
+There was this thing that happened that just freaked me out and I felt awful for days afterwards.
+
+#SAY.FlowchartJay.142.Jay
+I just felt so completely stressed out and anxious, like I was dealing with that stalker again. I couldn't bring myself to go out or anything.
+
+#SAY.FlowchartJay.144.Jay
+Thankfully I had food in the house, though I mostly didn't feel like eating either. But I totally would have starved rather than go out.
+
+#SAY.FlowchartJay.143.Jay
+I had really bad nightmares too.
+
+#SAY.FlowchartJay.145.Jay is thinking...
+I feel really bad, like I should have been able to handle it better.
+
+#SAY.FlowchartJay.147.Carrie
+We've all been there, Jay.
+{i}The rest of the group nods sympathetically.{/i}
+
+#SAY.FlowchartJay.148.Mary
+I still have terrible nightmares, all the time. Sometimes they're so bad that all I can do after I wake up is lie in bed all day feeling bad.
+
+#SAY.FlowchartJay.149.Jay
+Does it ever get any better?
+
+#SAY.FlowchartJay.150.Ellen
+Yes and no. It never goes away completely, but it gets easier. It happens less often and you start to recover more quickly.
+
+#SAY.FlowchartJay.151.Jay
+Ugh, I wish it would go away forever.
+
+#SAY.FlowchartJay.152.Carrie
+Yeah, I getcha. I wish that too... but it's not something you should be down on yourself for. And it definitely does get easier.
+
+#SAY.FlowchartJay.154.Jay
+{i}Jay nods.{/i}
+
+#SAY.FlowchartJay.157.Ellen
+And it sounds like you still got a lot of writing done.
+
+#SAY.FlowchartJay.161.Jay
+That's true. Actually, writing was really helpful. When I'm writing I kind of forget about the anxiety and the fear.
+{i}Everyone nods.{/i}
+
+#SAY.FlowchartJay.162.Mary
+Yeah, work gets me through a lot of the time too.
+
+#SAY.FlowchartJay.163.Ellen
+Maybe later we can talk about other things that might help. How does that sound?
+
+#SAY.FlowchartJay.164.Jay
+Yeah, that sounds like it could be helpful.
+
+#SAY.FlowchartJay.165.Ellen
+Was there anything that happened to help you get through it?
+
+#SAY.FlowchartJay.166.Jay
+Yes, actually, writing was really helpful. When I'm writing I kind of forget about the anxiety and the fear.
+{i}Everyone nods.{/i}
+
+#SAY.FlowchartJay.167.Mary
+Yeah, work gets me through a lot of the time too.
+
+#SAY.FlowchartJay.168.Ellen
+Maybe later we can talk about other things that might help. How does that sound?
+
+#SAY.FlowchartJay.169.Jay
+Yeah, that sounds like it could be helpful.
+
+#MENU.FlowchartJay.173
+Talk about your writing
+
+#MENU.FlowchartJay.174
+Talk about going to the movies
+
+#MENU.FlowchartJay.175
+Jay is done talking
+
+#SAY.FlowchartJay.41.Ellen
+Do you think it would have been helpful to tell him?
+
+#SAY.FlowchartJay.42.Jay
+Maybe? I don't know. It really depends on how he reacted.
+
+#SAY.FlowchartJay.43.Jay
+I'm pretty sure I couldn't have dealt with him freaking out about it though.
+
+#SAY.FlowchartJay.44.Carrie
+Yeah, I don't think there's any reason you should have told him immediately.
+
+#SAY.FlowchartJay.45.Ellen
+What do you think about following up with him now that you've had some time to think about it?
+
+#SAY.FlowchartJay.46.Jay
+Yeah, I was thinking about sending him an email.
+
+#SAY.FlowchartJay.47.Jay is thinking...
+It's so hard to figure out how much to say and how to say it. Guys freak out a lot of the time when I tell them what happened to me.
+
+#SAY.FlowchartJay.48.Jay
+But it's really hard! What if he freaks out about it like the last guy did?
+
+#SAY.FlowchartJay.49.Mary
+Better to find out sooner than later, in my opinion.
+
+#SAY.FlowchartJay.50.Mary is thinking...
+If only they all showed their stripes so readily. Sure would save some time, sigh.
+
+#SAY.FlowchartJay.51.Jay
+{i}Jay nods.{/i}
+Yeah, that's a good point.
+
+#SAY.FlowchartJay.54.Jay
+Can I have you guys look it over before I send it? I'll probably write a draft tonight and try and send it later this week.
+
+#SAY.FlowchartJay.55.Jay
+We're not planning on getting together again until Friday, so I have some time, I think.
+
+#SAY.FlowchartJay.56.
+{i}Everyone nods enthusiastically.{/i}
+
+#SAY.FlowchartJay.57.Jay
+{i}Jay smiles.{/i}
+Thanks so much. I really appreciate it.
+
+#SAY.FlowchartJay.58.Carrie
+Of course!
+
+#SAY.FlowchartJay.59.Ellen
+It's what we're here for.
+
+#MENU.FlowchartJay.62
+Talk about your writing
+
+#MENU.FlowchartJay.63
+Tell them about your meltdown
+
+#MENU.FlowchartJay.64
+Jay is done talking
+
+#SAY.FlowchartJay.65.Laurie
+I don't think you have to tell anyone anything you're not ready to talk about.
+
+#SAY.FlowchartJay.177.Ellen
+What do you think? How would it have felt to tell him?
+
+#SAY.FlowchartJay.178.Jay
+Honestly, I really think it's too soon. I'm not sure I'm interested enough in him yet to know whether I want to go into that with him.
+
+#SAY.FlowchartJay.179.Ellen
+That sounds fairly wise.
+
+#SAY.FlowchartJay.180.Mary
+How do you know when to bring this stuff up with people? I feel like I always bring it up too soon because I just want to get everything out and up front right away.
+
+#SAY.FlowchartJay.181.Carrie
+It was quite a while before I told my girlfriend. Fortunately I didn't have any panic attacks when she was around until we'd been together several months.
+
+#SAY.FlowchartJay.182.Laurie
+I think the most important thing is when you feel comfortable talking about it with them.
+
+#SAY.FlowchartJay.183.Jay
+Yeah, that makes sense. And I just don't feel ready to talk to him about it yet.
+
+#SAY.FlowchartJay.184.Mary
+So don't. There's nothing wrong with waiting until you're ready.
+
+#SAY.FlowchartJay.185.Ellen
+That's right.
+
+#MENU.FlowchartJay.186
+Talk about your writing
+
+#MENU.FlowchartJay.187
+Tell them about your meltdown
+
+#MENU.FlowchartJay.188
+Jay is done talking
+
+#SAY.FlowchartJay.73.Content warning
+Jay's story contains content that might be difficult for some players, particularly if you suffer from PTSD & struggle with traumatic flashbacks.
+
+#SAY.FlowchartJay.75.Content warning
+You may skip this content with no penalty if you choose.
+
+#MENU.FlowchartJay.69
+Continue Jay's story
+
+#MENU.FlowchartJay.70
+Skip Jay's story
+
+#SAY.FlowchartJay.74.
+Thank you for taking care of yourself. You have been awarded a self care bonus, congratulations!
+
+#SAY.FlowchartIntro.57.Ellen
+Ellen's own experiences with trauma led her to pursue a career as a therapist. She has been organizing group therapy sessions for final girls for several years now and has been meeting with this particular group for just over a year at this point.
+
+#SAY.FlowchartIntro.59.Mary
+Mary is a surgeon who specializes in body modification. Connecting with her work after her trauma motivated her to work through a lot of the physical and emotional issues that resulted from it.
+
+#SAY.FlowchartIntro.58.Carrie
+Carrie dealt with some terrible bullying in high school and suffered psychotic break as a result of it, but after years of treatment (sometimes while in an institution) she has made a life for herself that she feels good about. She has recently started a catering business. She and her girlfriend have been dating for several years and recently moved in together.
+
+#SAY.FlowchartIntro.60.Jay
+Jay is still struggling to recover after dealing with a terrible stalker who attacked her and several of her friends. She finds solace in her writing, however; she has one published novel and she's working a second one now.
+
+#SAY.FlowchartIntro.61.Laurie
+Laurie was attacked while babysitting many years ago. Since then she went to college and became a high school English teacher. She really enjoys her work and is fairly content with her life, though she still occasionally has nightmares about her attacker.
+
+#SAY.FlowchartIntro.15.Ellen
+Welcome, everyone.
+
+#MENU.FlowchartChooser.9
+Ask about Jay's week
+
+#MENU.FlowchartChooser.10
+Ask about Carrie's week
+
+#MENU.FlowchartChooser.11
+Ask about Laurie's week
+
+#MENU.FlowchartChooser.12
+Ask about Mary's week
+
+#MENU.FlowchartChooser.20
+Quit Playing
+
+#SAY.FlowchartMary.155.Content warning
+Mary's story contains content that might be difficult for some players, especially if you have been dealing with relationship problems lately.
+
+#SAY.FlowchartMary.161.Content warning
+You may skip this content with no penalty if you choose.
+
+#MENU.FlowchartMary.156
+Continue with Mary's story
+
+#MENU.FlowchartMary.158
+Skip Mary's story
+
+#SAY.FlowchartMary.51.Mary
+My show went really well! Janelle is a fantastic photographer, really talented. And she did a really good job capturing what my work meant to my clients.
+
+#SAY.FlowchartMary.9.Carrie
+I don't know if you told us about this last week, but I'm really curious about how this all got set up...
+
+#SAY.FlowchartMary.10.Mary
+Well, I gave her a list of my clients who expressed interest in being her subjects.
+
+#SAY.FlowchartMary.114.Mary
+Then she emailed them a list of interview questions, and after they responded to that, she set up a time to photograph them.
+
+#SAY.FlowchartMary.11.Jay
+That sounds awesome!
+
+#SAY.FlowchartMary.12.Mary
+It really was. She sent me copies of everyone's responses and then sat down with me to review the photos and decide which ones to include in the show.
+
+#SAY.FlowchartMary.53.Carrie
+Did your clients get any input?
+
+#SAY.FlowchartMary.54.Mary
+Oh yes, after she and I selected the photos we liked, we sent them back to my clients for review. Most of the time they agreed with our choices, but a few of them preferred different photos. Of course, we respected their wishes and used the photos they requested.
+
+#MENU.FlowchartMary.55
+How did people respond to the show?
+
+#MENU.FlowchartMary.59
+Who came to your show?
+
+#MENU.FlowchartMary.193
+Talk about your anxiety
+
+#MENU.FlowchartMary.195
+Mary's done talking
+
+#SAY.FlowchartMary.111.Mary
+Well, my mom showed up!
+{i}Mary laughs.{/i}
+That was a big surprise!
+
+#SAY.FlowchartMary.112.Jay
+Oh yeah, I bet! She's always pretended not to know what you do, right?
+
+#SAY.FlowchartMary.113.Mary
+Yeah, she's always tried to be supportive without actually acknowledging my work.
+{i}Mary smiles.{/i}
+
+#SAY.FlowchartMary.116.Mary
+But this time she came to my reception and actually said some really positive things about my work!
+
+#SAY.FlowchartMary.117.Ellen
+That's excellent! What kinds of things did she say, if you don't mind sharing?
+
+#SAY.FlowchartMary.118.Mary
+She said she could see how what I did meant a lot to people and brought them happiness. She even said that some of them looked good, which {b}really{/b} surprised me.
+
+#SAY.FlowchartMary.119.Mary is thinking...
+If only Richard could have been half as supportive...
+Who would have thought it would be my mom that would show up and not him?
+
+#MENU.FlowchartMary.120
+Tell them about Richard
+
+#MENU.FlowchartMary.149
+How did people respond to the show?
+
+#MENU.FlowchartMary.197
+Talk about your anxiety
+
+#MENU.FlowchartMary.64
+Mary's done talking
+
+#SAY.FlowchartMary.122.Mary is thinking...
+I guess I should tell them about Richard... it's not much of a support group if you don't actually try and get support, right?
+
+#SAY.FlowchartMary.123.Mary
+There was one really disappointing thing that happened.
+{i}Mary takes a deep breath.{/i}
+
+#SAY.FlowchartMary.124.Mary
+Richard didn't come to the reception.
+
+#SAY.FlowchartMary.125.Laurie
+What?!! I hope he had a good excuse!
+
+#SAY.FlowchartMary.126.Mary
+{i}Mary sighs.{/i}
+Not really. At first he told me got caught up in work and forgot. But when I told him how disappointed and upset I was...
+
+#SAY.FlowchartMary.127.Mary
+{i}Mary hesitates.{/i}
+
+#SAY.FlowchartMary.128.Ellen
+It's okay, Mary, take your time.
+
+#SAY.FlowchartMary.129.Mary
+Thank you.
+
+#SAY.FlowchartMary.198.Mary
+He said he felt sort of pressured to come, like it was a homework assignment or something.
+
+#SAY.FlowchartMary.199.Mary is thinking...
+That made me really mad... I don't know how I even continued the conversation with him at that point!
+
+#SAY.FlowchartMary.135.Mary
+And then he told me that I couldn't expect him to be there for everything just because he's my boyfriend.
+
+#SAY.FlowchartMary.130.Mary
+And that if I was going to be upset and disappointed every time he didn't show up for something, this wasn't going to work out.
+
+#SAY.FlowchartMary.131.Mary
+So I dumped him.
+
+#SAY.FlowchartMary.132.Laurie
+Good for you! What a jerk! Ugh, I'm sorry you had to go through that, especially for your first big show.
+
+#SAY.FlowchartMary.133.Mary
+Yeah, I'm really angry and disappointed. But better I find out now than later I guess.
+
+#SAY.FlowchartMary.134.Mary is thinking...
+I wonder if I'll ever meet someone I can actually trust...
+
+#SAY.FlowchartMary.138.Jay
+Wow, that really sucks! He sounded so sweet and charming too...
+
+#SAY.FlowchartMary.139.Mary is thinking...
+That was hard, but I'm really glad I told them.
+
+#SAY.FlowchartMary.140.Mary
+Yeah, I don't know what his deal is, really. But I'm still really pleased about the show. And I'm glad I have you to talk to about it.
+
+#MENU.FlowchartMary.136
+But my mom showed up!
+
+#MENU.FlowchartMary.137
+At least my show was well received
+
+#MENU.FlowchartMary.196
+Talk about your anxiety
+
+#MENU.FlowchartMary.76
+Mary's done talking
+
+#SAY.FlowchartMary.25.Ellen
+Was the show well received?
+
+#SAY.FlowchartMary.52.Mary
+I was {b}so{/b} worried
+
+#SAY.FlowchartMary.26.Mary
+Mostly, yes. Of course there were the usual naysayers who believe that the world would be better off without my work... Of course BME had a full spread on the show and we let them use some of Janelle's photos, so that was great.
+
+#MENU.FlowchartMary.62
+Who came to your show?
+
+#MENU.FlowchartMary.194
+Talk about your anxiety
+
+#MENU.FlowchartMary.77
+Mary's done talking
+
+#SAY.FlowchartMary.101.Mary is thinking...
+Ugh, it's hard to talk about this, but I need to try...
+
+#SAY.FlowchartMary.102.Mary
+I was actually really nervous about doing this...
+
+#SAY.FlowchartMary.103.Ellen
+What were you worried about?
+
+#SAY.FlowchartMary.104.Mary
+Well...
+{i}Mary laughs{/i}
+At first I was worried that my clients wouldn't want to participate. Some of them are really private people!
+
+#SAY.FlowchartMary.105.Mary
+So it was a huge relief when so many of them not only said yes but seemed really excited about it. That was great!
+{i}Mary smiles.{/i}
+
+#SAY.FlowchartMary.106.Mary
+I was also really worried about how the show would be received. A lot of people really don't like my work and say terrible things about me and my clients.
+
+#SAY.FlowchartMary.107.Mary
+It's really hard to just ignore that, you know? And I wasn't wrong, we did get some of that feedback... but overall the reception was really positive, I think.
+
+#MENU.FlowchartMary.108
+How did people respond to the show?
+
+#MENU.FlowchartMary.96
+Who came to your show?
+
+#MENU.FlowchartMary.97
+Mary's done talking
+
+#MENU.FlowchartMary.60
+Talk about Mom
+
+#MENU.FlowchartMary.61
+Talk about Richard
+
+#SAY.FlowchartMary.109.Mary is thinking...
+I don't really have anything else I want to say about this week.
+
+#SAY.FlowchartMary.110.Mary
+Does anyone else want to talk about how their week went?
+
+#SAY.FlowchartMary.151.Ellen
+You had a show this week, right, Mary? How did it go?
+
+#SAY.FlowchartMary.152.Mary is thinking...
+Do I tell them how nervous I was? Or just how well things went? Ugh, I don't want to talk about Richard... I'm still so angry at him. Where do I start?
+
+#MENU.FlowchartMary.153
+Say more about the show
+
+#MENU.FlowchartMary.154
+Talk about your anxiety
+
+#SAY.FlowchartMary.162.
+Thank you for taking care of yourself. You have been awarded a self care bonus, congratulations!
+
+#SAY.FlowchartCarrie.1.Carrie is thinking...
+My week was really great! Very hectic but I'm feeling good about things.
+
+#MENU.FlowchartCarrie.7
+Talk about the catering business
+
+#MENU.FlowchartCarrie.8
+Talk about your girlfriend
+
+#MENU.FlowchartCarrie.9
+Talk about gardening
+
+#MENU.FlowchartCarrie.18
+I don't really have anything I need to talk about
+
+#SAY.FlowchartCarrie.19.Carrie
+My catering business is really taking off! I feel like I hardly had time to breathe this week.
+{i}Carrie smiles.{/i}
+
+#SAY.FlowchartCarrie.21.Ellen
+That's great! Did you have a lot of events this week? Or just one big one?
+
+#SAY.FlowchartCarrie.22.Carrie
+I had a wedding and a couple of smaller events, so it was really hectic!
+
+#SAY.FlowchartCarrie.23.Carrie
+I had to hire staff for the wedding too, which I've only done a few times before, but it mostly worked out fine.
+
+#SAY.FlowchartCarrie.24.Mary
+Mostly?
+
+#SAY.FlowchartCarrie.25.Carrie
+Well, the groom turned out to be really finicky, but no one had said anything to me about it beforehand, so I had to put together something special for him at the last minute.
+
+#SAY.FlowchartCarrie.26.Carrie
+The bride was really apologetic, poor thing. I felt kind of sorry for her. But I think he was mollified eventually.
+
+#SAY.FlowchartCarrie.27.Laurie
+And the other events? How did they turn out?
+
+#SAY.FlowchartCarrie.28.Carrie
+Oh, they were fine. Mostly the usual business dinners and lunches, fairly standard.
+
+#SAY.FlowchartCarrie.80.Carrie
+Who knew that all that cooking I was doing to self soothe would eventually turn into a career for me?
+
+#SAY.FlowchartCarrie.81.Ellen
+That must feel really good.
+
+#SAY.FlowchartCarrie.82.Carrie
+Yeah, it does. I feel really proud of myself that it's working out so far. It's not easy! But I'm really enjoying it.
+
+#MENU.FlowchartCarrie.29
+Talk about your girlfriend
+
+#MENU.FlowchartCarrie.30
+Talk about gardening
+
+#MENU.FlowchartCarrie.31
+Carrie's done talking
+
+#SAY.FlowchartCarrie.34.Ellen
+How are things with Lindsay?
+
+#SAY.FlowchartCarrie.35.Carrie
+Things are pretty good, though we're still adjusting to living together.
+
+#SAY.FlowchartCarrie.38.Laurie
+Oh, that's right! You just moved in together, didn't you? How long ago was that?
+
+#SAY.FlowchartCarrie.39.Carrie
+It's been a couple of weeks now. I mean, we've been dating for a couple of years so I think we were in agreement that the time was right.
+
+#SAY.FlowchartCarrie.40.Carrie
+But you never know what it's really like until it becomes a reality.
+{i}Carrie smiles.{/i}
+But it's going pretty well.
+
+#SAY.FlowchartCarrie.41.Carrie is thinking...
+Do I tell them about the fight we had? It was such a stupid petty thing to fight over...
+
+#MENU.FlowchartCarrie.42
+Talk about the fight
+
+#MENU.FlowchartCarrie.45
+Talk about the catering business
+
+#MENU.FlowchartCarrie.43
+Talk about gardening
+
+#MENU.FlowchartCarrie.44
+Carrie's done talking
+
+#SAY.FlowchartCarrie.73.Carrie
+Despite everything being so hectic, I managed to add a few more plants to the garden.
+
+#SAY.FlowchartCarrie.74.Mary
+Nice! I have such a black thumb, it's really great to hear not everyone does!
+
+#SAY.FlowchartCarrie.75.Laurie
+What kind of plants?
+
+#SAY.FlowchartCarrie.77.Carrie
+Well, I got some heirloom tomatoes and a few more herbs. I'm still not quite sure about the ph of the soil there, but we'll see.
+
+#SAY.FlowchartCarrie.78.Laurie
+Do you have any decorative plants or are you focusing on things you can eat?
+
+#SAY.FlowchartCarrie.79.Carrie
+Mostly things we can eat, for now. It was my love of cooking and wanting to have fresh herbs on hand that motivated me to try my hand at gardening in the first place.
+
+#SAY.FlowchartCarrie.83.Carrie
+But if the kitchen garden does well, I might think about planting something ornamental.
+
+#SAY.FlowchartCarrie.84.Laurie
+That's so fantastic.
+
+#MENU.FlowchartCarrie.85
+Talk about the catering business
+
+#MENU.FlowchartCarrie.87
+Talk about your girlfriend
+
+#MENU.FlowchartCarrie.86
+Carrie's done talking
+
+#SAY.FlowchartCarrie.11.Carrie is thinking...
+[Yeah, I'd rather not talk about my week right now, it just feels like crowing.]
+
+#SAY.FlowchartCarrie.12.Carrie
+[Nothing much to say this week, I'm afraid. My week was pretty uneventful. 
+{i}Laurie smiles.{/i}]
+
+#SAY.FlowchartCarrie.13.Ellen
+[Whatever feels comfortable, Laurie. I'm glad to hear your week went well.]
+
+#SAY.FlowchartCarrie.47.Carrie is thinking...
+Oh what the hell, might as well talk about it.
+
+#SAY.FlowchartCarrie.48.Carrie
+We did have a silly petty fight. Promise me y'all won't laugh, okay?
+
+#SAY.FlowchartCarrie.49.Mary
+{i}Mary laughs.{/i}
+Oh, c'mon! We all know how dumb fights happen in every relationship.
+
+#SAY.FlowchartCarrie.50.Laurie
+Yeah, it's pretty normal.
+{i}Laurie smiles.{/i}
+
+#SAY.FlowchartCarrie.51.Carrie
+Okay, fine. But I still feel silly about it, because in retrospect it was just ridiculous.
+
+#SAY.FlowchartCarrie.52.Carrie is thinking...
+I'm sure it didn't help that I was really tired after the wedding and still a little irritated about trying to get that groom fed.
+
+#SAY.FlowchartCarrie.55.Carrie
+I'd just gotten home and she asked me about the soap dispenser in the guest bathroom. She had a pretty nice one that I put in our bathroom so I put my old one in the guest bathroom.
+
+#SAY.FlowchartCarrie.57.Carrie
+But I'd totally forgotten about it, so at first I had no idea what she was talking about. I thought my old one was still in our bathroom and that was what she was angry about.
+
+#SAY.FlowchartCarrie.58.Ellen
+Was she angry?
+
+#SAY.FlowchartCarrie.59.Carrie
+No, though I thought she was because she seemed sort of brusque. She told me later that she had been writing all day so her head was still half in Writer Land, so that was why it seemed that way to me.
+
+#SAY.FlowchartCarrie.60.Carrie
+I don't think I'd really spent much time around her when she'd been writing before - she'd usually take time to transition out of writing headspace before we'd get together.
+
+#SAY.FlowchartCarrie.61.Carrie
+Anyway, I snapped at her - I don't remember exactly what I said now - and then she started crying, which took me by surprise. I felt awful!
+
+#SAY.FlowchartCarrie.62.Jay
+Oh no! Then what happened?
+
+#SAY.FlowchartCarrie.63.Carrie
+Nothing really. I apologized and we explained what was going on with each of us and then we kissed and made up.
+
+#SAY.FlowchartCarrie.64.Laurie
+Aww, that's really sweet.
+
+#SAY.FlowchartCarrie.65.Ellen
+{i}Ellen smiles.{/i}
+It sounds like you resolved it pretty quickly.
+
+#SAY.FlowchartCarrie.66.Carrie
+Yeah, I just felt silly for being snippy with her, and really surprised that she got so upset right away. But I understood it after she explained.
+
+#SAY.FlowchartCarrie.67.Ellen
+Yeah, those sorts of minor conflicts are to be expected when you adjust to a new level of commitment and intimacy.
+
+#SAY.FlowchartCarrie.68.Carrie
+{i}Carrie nods.{/i}
+
+#SAY.FlowchartCarrie.69.Carrie is thinking...
+I'm glad it was over so quickly. In the early days of our relationship, something like that would have probably led to us fighting for hours...
+
+#MENU.FlowchartCarrie.70
+Talk about the catering business
+
+#MENU.FlowchartCarrie.71
+Talk about gardening
+
+#MENU.FlowchartCarrie.72
+Carrie's done talking
+
+#SAY.FlowchartEnd.24.Ellen
+It sounds like most of you have talked about what you wanted to discuss today?
+{i}Everyone nods.{/i}
+
+#SAY.FlowchartEnd.25.Ellen
+I was thinking that to wrap up, we could talk about our self care strategies. How does that sound?
+
+#SAY.FlowchartEnd.27.Mary
+Sounds good to me.
+
+#SAY.FlowchartEnd.28.Ellen
+How about you, Carrie, would you mind starting us off by telling us about what kinds of things work for you?
+
+#SAY.FlowchartEnd.29.Carrie
+Sure, though I'm in kind of a weird place right now around that. Cooking was a big form of self care for me, but now that I've got the catering business, it's not quite the same.
+
+#SAY.FlowchartEnd.30.Carrie
+That is why I started the garden, though; I thought it might be a good substitute. We'll see though, it's still a very new thing.
+
+#SAY.FlowchartEnd.31.Ellen
+Yes, I can see how that might be a challenge. Anyone else? Jay, how about you?
+
+#SAY.FlowchartEnd.32.Jay
+I go running, sometimes, though it's hard when my anxiety makes it difficult to leave the house.
+
+#SAY.FlowchartEnd.33.Jay
+Writing is a big one for me - I keep a journal, but working on my novel helps too, sometimes.
+
+#SAY.FlowchartEnd.36.Laurie
+Work sometimes helps. Grading papers can be monotonous but it's also soothing. Otherwise, I like to do my nails and watch cartoons.
+
+#SAY.FlowchartEnd.37.Jay
+Cartoons? That's pretty cool.
+
+#SAY.FlowchartEnd.38.Laurie
+Yeah, I really like the old Disney animated movies or Animaniacs. Anything light and silly makes me feel better.
+
+#SAY.FlowchartEnd.43.Laurie
+Walking Bugsy or playing with him also helps, he really brightens my days.
+{i}Laurie smiles.{/i}
+
+#SAY.FlowchartEnd.39.Ellen
+What about you, Mary? What works for you?
+
+#SAY.FlowchartEnd.40.Mary
+Reading old medical texts. Going to the gym. Shopping for new clothes also works sometimes.
+
+#SAY.FlowchartEnd.41.Mary
+I have friends that I talk to also - some of them are clients who I've known since before I was attacked, so I don't have to explain anything to them, just tell them I'm having a hard time.
+
+#SAY.FlowchartEnd.44.Ellen
+Yes, reaching out to get support from people in our lives can be really important.
+{i}Everyone nods.{/i}
+
+#SAY.FlowchartEnd.45.Ellen
+Well, our time is just about up. Have a good week, everyone, and thank you for coming.
+
+#SAY.FlowchartEnd.7.
+Thank you again for taking care of yourself.
+Jay's story can be difficult to read - she had an experience that was deeply evocative of her trauma and so she had a difficult week. But she's learning to work through it and take care of herself just like you are.
+
+#SAY.FlowchartEnd.11.
+Thank you again for taking care of yourself.
+Mary's story can be difficult to read
+
+#SAY.FlowchartEnd.14.
+You chose for Mary to open up about her anxiety. You have been awarded 10 points for this choice.
+
+#SAY.FlowchartEnd.17.
+You chose for Mary to open up about her breakup with Richard. You have been awarded 10 points for this choice.
+
+#SAY.FlowchartEnd.20.
+You chose for Mary to open up about her how she felt about her mom coming to her show. You have been awarded 10 points for this choice.
+
+#SAY.FlowchartEnd.22.
+Your score is {$MaryScore}. Congratulations!
+
