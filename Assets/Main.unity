@@ -5361,7 +5361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1452200123}
+  selectedFlowchart: {fileID: 2110148084}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -5918,9 +5918,9 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662778969}
+  selectedBlock: {fileID: 662779035}
   selectedCommands:
-  - {fileID: 662779105}
+  - {fileID: 662779039}
   variables:
   - {fileID: 662779071}
   - {fileID: 662779016}
@@ -7832,8 +7832,8 @@ MonoBehaviour:
   itemId: 74
   errorMessage: 
   indentLevel: 0
-  storyText: Thank you for taking care of yourself. You have been awarded a self care
-    bonus, congratulations!
+  storyText: '{audio=SelfCare}Thank you for taking care of yourself. You have been
+    awarded a self care bonus, congratulations!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10434,7 +10434,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779146
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10449,7 +10449,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1546832310}
 --- !u!114 &662779147
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -10476,7 +10476,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &662779148
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662778962}
@@ -14239,9 +14239,9 @@ MonoBehaviour:
     y: -732
     width: 1972.42554
     height: 1481
-  selectedBlock: {fileID: 1693620351}
+  selectedBlock: {fileID: 1693620363}
   selectedCommands:
-  - {fileID: 1693620410}
+  - {fileID: 1693620440}
   variables:
   - {fileID: 1693620379}
   - {fileID: 1693620361}
@@ -21417,6 +21417,9 @@ GameObject:
   - 114: {fileID: 2110148160}
   - 114: {fileID: 2110148172}
   - 114: {fileID: 2110148171}
+  - 114: {fileID: 2110148173}
+  - 114: {fileID: 2110148175}
+  - 114: {fileID: 2110148174}
   m_Layer: 0
   m_Name: FlowchartEnd
   m_TagString: Untagged
@@ -21515,7 +21518,8 @@ MonoBehaviour:
     width: 1333
     height: 901
   selectedBlock: {fileID: 2110148085}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2110148173}
   variables: []
   description: 
   stepPause: 0
@@ -21523,7 +21527,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartEnd
-  nextItemId: 105
+  nextItemId: 108
 --- !u!114 &2110148085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21556,8 +21560,11 @@ MonoBehaviour:
   - {fileID: 2110148165}
   - {fileID: 2110148164}
   - {fileID: 2110148163}
+  - {fileID: 2110148175}
+  - {fileID: 2110148174}
   - {fileID: 2110148162}
   - {fileID: 2110148161}
+  - {fileID: 2110148173}
 --- !u!114 &2110148086
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23658,7 +23665,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2110148171
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -23673,7 +23680,7 @@ MonoBehaviour:
   duration: 5
 --- !u!114 &2110148172
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -23688,6 +23695,85 @@ MonoBehaviour:
   storyText: 'Characters inspired by some of my favorite horror movies.
 
     No copyright infringement intended.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2110148173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Thank you for taking the time to play!
+
+    Comments, criticism or concerns can be directed to
+
+    spideyj@othersgames.com
+
+    or
+
+    @spidey_j on twitter'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2110148174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  errorMessage: 
+  indentLevel: 0
+  duration: 5
+--- !u!114 &2110148175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 106
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Made with Unity3d and Fungus
+
+    Fungus is available at
+
+    http://fungusgames.com/'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
