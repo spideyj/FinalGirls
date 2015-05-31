@@ -5361,7 +5361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2110148084}
+  selectedFlowchart: {fileID: 1452200123}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -12297,8 +12297,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Laurie was attacked while babysitting many years ago. Since then she
     went to college and became a high school English teacher. She really enjoys her
-    work and is fairly content with her life, though she still occasionally has nightmares
-    about her attacker.
+    work and is fairly content with her life, although she still occasionally has
+    nightmares about her attacker.
   description: 
   character: {fileID: 1605469730}
   portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
@@ -12376,8 +12376,9 @@ MonoBehaviour:
     y: -388
     width: 1552
     height: 1065
-  selectedBlock: {fileID: 1452200121}
-  selectedCommands: []
+  selectedBlock: {fileID: 1452200126}
+  selectedCommands:
+  - {fileID: 1452200120}
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -12512,7 +12513,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Jay is still struggling to recover after dealing with a terrible stalker
     who attacked her and several of her friends. She finds solace in her writing,
-    however; she has one published novel and she's working a second one now.
+    however; she has one published novel and she's working on a second one now.
   description: 
   character: {fileID: 1248561976}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -12538,11 +12539,9 @@ MonoBehaviour:
   itemId: 58
   errorMessage: 
   indentLevel: 0
-  storyText: Carrie dealt with some terrible bullying in high school and suffered
-    psychotic break as a result of it, but after years of treatment (sometimes while
-    in an institution) she has made a life for herself that she feels good about.
-    She has recently started a catering business. She and her girlfriend have been
-    dating for several years and recently moved in together.
+  storyText: 'Carrie dealt with some terrible bullying in high school and suffered
+    a psychotic break as a result of it, but after years of treatment she has made
+    a life for herself that she feels good about. '
   description: 
   character: {fileID: 1538509904}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -12584,7 +12583,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1309982761}
 --- !u!114 &1452200132
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452200115}
