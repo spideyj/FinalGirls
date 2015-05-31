@@ -12378,7 +12378,7 @@ MonoBehaviour:
     height: 1065
   selectedBlock: {fileID: 1452200126}
   selectedCommands:
-  - {fileID: 1452200120}
+  - {fileID: 1452200129}
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -12511,9 +12511,9 @@ MonoBehaviour:
   itemId: 60
   errorMessage: 
   indentLevel: 0
-  storyText: Jay is still struggling to recover after dealing with a terrible stalker
-    who attacked her and several of her friends. She finds solace in her writing,
-    however; she has one published novel and she's working on a second one now.
+  storyText: Jay is still struggling to recover after dealing with a stalker. She
+    finds solace in her writing, however; she has one published novel and she's working
+    on a second one now.
   description: 
   character: {fileID: 1248561976}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
