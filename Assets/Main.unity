@@ -5359,7 +5359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1452200123}
+  selectedFlowchart: {fileID: 2110148084}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -5840,6 +5840,7 @@ GameObject:
   - 114: {fileID: 662779154}
   - 114: {fileID: 662779153}
   - 114: {fileID: 662779152}
+  - 114: {fileID: 662779159}
   m_Layer: 0
   m_Name: FlowchartJay
   m_TagString: Untagged
@@ -5926,9 +5927,8 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662778972}
-  selectedCommands:
-  - {fileID: 662779157}
+  selectedBlock: {fileID: 662779026}
+  selectedCommands: []
   variables:
   - {fileID: 662779071}
   - {fileID: 662779016}
@@ -5942,7 +5942,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartJay
-  nextItemId: 207
+  nextItemId: 208
 --- !u!114 &662778967
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6075,7 +6075,7 @@ MonoBehaviour:
   itemId: 5
   errorMessage: 
   indentLevel: 0
-  storyText: I at least got some writing done, I could talk about that. Otherwise
+  storyText: At least I got some writing done, I could talk about that. Otherwise
     there was that horrible movie and everything that followed, yuck.
   description: 
   character: {fileID: 1612176988}
@@ -7577,7 +7577,8 @@ MonoBehaviour:
   blockName: End
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 662779159}
 --- !u!114 &662779027
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8810,8 +8811,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Well, it's a science fiction novel, about a woman who's the pilot of
-    s ship on a scouting mission. The rest of the crew are in cryo-sleep and the ship's
-    AI wakes her in intervals to check on their course.
+    a space ship on a scouting mission. The rest of the crew are in cryo-sleep and
+    the ship's AI wakes her in intervals to check on their course.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -9309,7 +9310,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: I just felt so completely stressed out and anxious, like I was dealing
-    with the stalker again. I couldn't bring myself to go out or anything.
+    with my stalker again. I couldn't bring myself to go out or anything.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -10388,7 +10389,7 @@ MonoBehaviour:
   itemId: 179
   errorMessage: 
   indentLevel: 0
-  storyText: That sounds fairly wise.
+  storyText: That sounds wise.
   description: 
   character: {fileID: 2099325552}
   portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
@@ -10765,6 +10766,23 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &662779159
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 1529011483}
+  targetBlock: {fileID: 1529011481}
+  callMode: 0
 --- !u!1 &825801740
 GameObject:
   m_ObjectHideFlags: 0
@@ -13499,9 +13517,8 @@ MonoBehaviour:
     y: -414
     width: 1664
     height: 1028
-  selectedBlock: {fileID: 1529011481}
-  selectedCommands:
-  - {fileID: 1529011485}
+  selectedBlock: {fileID: 1529011486}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -13541,7 +13558,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Quit Playing
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1529011486}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1529011486
@@ -14434,6 +14451,8 @@ GameObject:
   - 114: {fileID: 1693620477}
   - 114: {fileID: 1693620479}
   - 114: {fileID: 1693620480}
+  - 114: {fileID: 1693620481}
+  - 114: {fileID: 1693620482}
   m_Layer: 0
   m_Name: FlowchartMary
   m_TagString: Untagged
@@ -14504,9 +14523,9 @@ MonoBehaviour:
     y: -732
     width: 1972.42554
     height: 1481
-  selectedBlock: {fileID: 1693620363}
+  selectedBlock: {fileID: 1693620387}
   selectedCommands:
-  - {fileID: 1693620440}
+  - {fileID: 1693620382}
   variables:
   - {fileID: 1693620379}
   - {fileID: 1693620361}
@@ -14518,7 +14537,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartMary
-  nextItemId: 206
+  nextItemId: 208
 --- !u!4 &1693620354
 Transform:
   m_ObjectHideFlags: 0
@@ -14608,6 +14627,7 @@ MonoBehaviour:
   - {fileID: 1693620368}
   - {fileID: 1693620373}
   - {fileID: 1693620372}
+  - {fileID: 1693620481}
   - {fileID: 1693620371}
   - {fileID: 1693620375}
   - {fileID: 1693620476}
@@ -14888,6 +14908,7 @@ MonoBehaviour:
   - {fileID: 1693620390}
   - {fileID: 1693620479}
   - {fileID: 1693620374}
+  - {fileID: 1693620482}
   - {fileID: 1693620413}
   - {fileID: 1693620473}
   - {fileID: 1693620412}
@@ -15019,8 +15040,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oh yes, after she and I selected the photos we liked, we sent them back
     to my clients for review. Most of the time they agreed with our choices, but a
-    few of them preferred different photos. Of course, we respected their wishes and
-    used the photos they requested.
+    few of them preferred different photos.
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -15072,9 +15092,8 @@ MonoBehaviour:
   itemId: 26
   errorMessage: 
   indentLevel: 0
-  storyText: Mostly, yes. Of course there were the usual naysayers who believe that
-    the world would be better off without my work... But BME had a full spread on
-    the show using some of Janelle's photos, so that was great.
+  storyText: 'Mostly, yes. Of course there were the usual naysayers who believe that
+    the world would be better off without my work... '
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -15261,7 +15280,7 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: 'I was actually really nervous about doing this... '
+  storyText: 'I was actually really nervous about doing this show... '
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -16191,7 +16210,7 @@ MonoBehaviour:
   itemId: 134
   errorMessage: 
   indentLevel: 0
-  storyText: I wonder if I'll ever meet someone I can actually trust...
+  storyText: I wonder if I'll ever meet someone I can actually count on...
   description: 
   character: {fileID: 1024565122}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -16604,7 +16623,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Yeah, I don't know what his deal is, really. But I'm still really pleased
-    about the show. And I'm glad I have you to talk to about it.
+    about the show. And I'm glad I have all of you to talk to about it.
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -17566,7 +17585,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1693620479
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1693620350}
@@ -17581,7 +17600,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1546832310}
 --- !u!114 &1693620480
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1693620350}
@@ -17594,6 +17613,59 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  errorMessage: 
+  indentLevel: 0
+  storyText: Of course we respected their wishes and used the photos they requested.
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 1546832310}
+--- !u!114 &1693620482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  errorMessage: 
+  indentLevel: 0
+  storyText: But BME had a full spread on the show using some of Janelle's photos,
+    so that was great.
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 1546832310}
 --- !u!1 &1702637391
 GameObject:
   m_ObjectHideFlags: 0
@@ -21167,7 +21239,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1882276462
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882276348}
@@ -21833,9 +21905,9 @@ MonoBehaviour:
     y: -382
     width: 1333
     height: 901
-  selectedBlock: {fileID: 2110148082}
+  selectedBlock: {fileID: 2110148085}
   selectedCommands:
-  - {fileID: 2110148114}
+  - {fileID: 2110148162}
   variables: []
   description: 
   stepPause: 0
@@ -24102,7 +24174,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2110148176
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
