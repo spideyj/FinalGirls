@@ -21807,6 +21807,7 @@ GameObject:
   - 114: {fileID: 2110148175}
   - 114: {fileID: 2110148174}
   - 114: {fileID: 2110148176}
+  - 114: {fileID: 2110148177}
   m_Layer: 0
   m_Name: FlowchartEnd
   m_TagString: Untagged
@@ -21907,7 +21908,7 @@ MonoBehaviour:
     height: 901
   selectedBlock: {fileID: 2110148085}
   selectedCommands:
-  - {fileID: 2110148162}
+  - {fileID: 2110148173}
   variables: []
   description: 
   stepPause: 0
@@ -21915,7 +21916,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartEnd
-  nextItemId: 109
+  nextItemId: 111
 --- !u!114 &2110148085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21975,6 +21976,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 2110148177}
   - {fileID: 2110148103}
   - {fileID: 2110148088}
   - {fileID: 2110148101}
@@ -22337,9 +22339,9 @@ MonoBehaviour:
   indentLevel: 1
   storyText: '
 
-    Mary''s story can be hard to hear about that if you''re dealing with similar relationship
-    issues. She felt really unsupported by her boyfriend because he didn''t come to
-    her show, so she broke up with him.
+    Mary''s story can be hard to hear about if you''re dealing with similar relationship
+    issues. She felt really unsupported by her boyfriend when he didn''t come to her
+    show, so she broke up with him.
 
     So thank you again for taking care of yourself.
 
@@ -23552,8 +23554,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: '
 
-    You chose for Jay to talk about how about why she didn''t want to tell Nate why
-    she went home early: 10 points.'
+    You chose for Jay to talk about how about why she didn''t want to tell Nate about
+    her stalker: 10 points.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -23650,7 +23652,7 @@ MonoBehaviour:
   storyText: '
 
     You chose for Jay to open up about how she was triggered and had a hard time dealing
-    with that: 10 points.'
+    with it: 10 points.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -23720,8 +23722,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: '
 
-    You chose for Jay to talk about how about she might tell Nate why she went home
-    early: 10 points.'
+    You chose for Jay to talk about how she might tell Nate why she went home early:
+    10 points.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -24187,6 +24189,24 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   sayDialog: {fileID: 1546832310}
+--- !u!114 &2110148177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 456554039}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &2118928626
 GameObject:
   m_ObjectHideFlags: 0
