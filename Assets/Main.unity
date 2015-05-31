@@ -5359,7 +5359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2110148084}
+  selectedFlowchart: {fileID: 1529011483}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -5927,7 +5927,7 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662779026}
+  selectedBlock: {fileID: 662779035}
   selectedCommands: []
   variables:
   - {fileID: 662779071}
@@ -12659,8 +12659,7 @@ MonoBehaviour:
     width: 1552
     height: 1065
   selectedBlock: {fileID: 1452200126}
-  selectedCommands:
-  - {fileID: 1452200120}
+  selectedCommands: []
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -13517,8 +13516,9 @@ MonoBehaviour:
     y: -414
     width: 1664
     height: 1028
-  selectedBlock: {fileID: 1529011486}
-  selectedCommands: []
+  selectedBlock: {fileID: 1529011481}
+  selectedCommands:
+  - {fileID: 1529011485}
   variables: []
   description: 
   stepPause: 0
@@ -13556,7 +13556,7 @@ MonoBehaviour:
   itemId: 20
   errorMessage: 
   indentLevel: 0
-  text: Quit Playing
+  text: Everyone's done talking about their weeks
   description: 
   targetBlock: {fileID: 1529011486}
   hideIfVisited: 1
@@ -14523,9 +14523,8 @@ MonoBehaviour:
     y: -732
     width: 1972.42554
     height: 1481
-  selectedBlock: {fileID: 1693620387}
-  selectedCommands:
-  - {fileID: 1693620382}
+  selectedBlock: {fileID: 1693620351}
+  selectedCommands: []
   variables:
   - {fileID: 1693620379}
   - {fileID: 1693620361}
@@ -17615,7 +17614,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1546832310}
 --- !u!114 &1693620481
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1693620350}
@@ -17641,7 +17640,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1546832310}
 --- !u!114 &1693620482
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1693620350}
@@ -18500,8 +18499,7 @@ MonoBehaviour:
     width: 1529
     height: 1020
   selectedBlock: {fileID: 1882276355}
-  selectedCommands:
-  - {fileID: 1882276354}
+  selectedCommands: []
   variables:
   - {fileID: 1882276364}
   - {fileID: 1882276363}
@@ -21906,9 +21904,8 @@ MonoBehaviour:
     y: -382
     width: 1333
     height: 901
-  selectedBlock: {fileID: 2110148085}
-  selectedCommands:
-  - {fileID: 2110148173}
+  selectedBlock: {fileID: 2110148082}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -24191,7 +24188,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1546832310}
 --- !u!114 &2110148177
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
