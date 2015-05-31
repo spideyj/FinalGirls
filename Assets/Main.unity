@@ -432,9 +432,8 @@ MonoBehaviour:
     y: -423
     width: 1560
     height: 1103
-  selectedBlock: {fileID: 15730940}
-  selectedCommands:
-  - {fileID: 15731019}
+  selectedBlock: {fileID: 15730945}
+  selectedCommands: []
   variables:
   - {fileID: 15730955}
   - {fileID: 15730954}
@@ -460,9 +459,8 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: 'My week has been really good! I''m taking some interesting classes,
-    I adopted a really cute dog from the shelter and I was able to help a student
-    with her problems. '
+  storyText: 'My week has been really good! I''m taking an interesting class, I adopted
+    a really cute dog from the shelter and I was able to help a student with her problems. '
   description: 
   character: {fileID: 164532003}
   portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
@@ -488,7 +486,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 257
-    y: 88
+    y: 87
     width: 120
     height: 40
   itemId: 2
@@ -1853,8 +1851,8 @@ MonoBehaviour:
   itemId: 58
   errorMessage: 
   indentLevel: 0
-  storyText: I also talked to her about talking to the girls who were doing it but
-    it doesn't sound like that was a good option either.
+  storyText: We also discussed talking to the girls who were doing it but it doesn't
+    sound like that was a good option either.
   description: 
   character: {fileID: 1430934121}
   portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
@@ -2067,7 +2065,7 @@ MonoBehaviour:
   itemId: 42
   errorMessage: 
   indentLevel: 0
-  storyText: Hopefully they don't all choose the same two books!
+  storyText: Hopefully they don't all choose the same books!
   description: 
   character: {fileID: 1430934121}
   portrait: {fileID: 21300000, guid: b67c30bcb14906b4eae7b2602382b742, type: 3}
@@ -5361,7 +5359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1452200123}
+  selectedFlowchart: {fileID: 2110148084}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -5832,6 +5830,16 @@ GameObject:
   - 114: {fileID: 662779148}
   - 114: {fileID: 662779147}
   - 114: {fileID: 662779146}
+  - 114: {fileID: 662779158}
+  - 114: {fileID: 662779157}
+  - 114: {fileID: 662779156}
+  - 114: {fileID: 662779155}
+  - 114: {fileID: 662779151}
+  - 114: {fileID: 662779150}
+  - 114: {fileID: 662779149}
+  - 114: {fileID: 662779154}
+  - 114: {fileID: 662779153}
+  - 114: {fileID: 662779152}
   m_Layer: 0
   m_Name: FlowchartJay
   m_TagString: Untagged
@@ -5918,9 +5926,9 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662779035}
+  selectedBlock: {fileID: 662778972}
   selectedCommands:
-  - {fileID: 662779039}
+  - {fileID: 662779157}
   variables:
   - {fileID: 662779071}
   - {fileID: 662779016}
@@ -5934,7 +5942,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartJay
-  nextItemId: 197
+  nextItemId: 207
 --- !u!114 &662778967
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6068,7 +6076,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: I at least got some writing done, I could talk about that. Otherwise
-    there was that stupid movie and everything that followed, yuck.
+    there was that horrible movie and everything that followed, yuck.
   description: 
   character: {fileID: 1612176988}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -6152,11 +6160,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 662779107}
   - {fileID: 662779046}
+  - {fileID: 662779158}
+  - {fileID: 662779157}
+  - {fileID: 662779156}
+  - {fileID: 662779155}
+  - {fileID: 662779154}
+  - {fileID: 662779153}
+  - {fileID: 662779152}
+  - {fileID: 662779151}
+  - {fileID: 662779150}
   - {fileID: 662778983}
-  - {fileID: 662778982}
   - {fileID: 662778981}
   - {fileID: 662778980}
   - {fileID: 662778979}
+  - {fileID: 662778982}
+  - {fileID: 662779149}
   - {fileID: 662779045}
   - {fileID: 662778978}
   - {fileID: 662778977}
@@ -6325,7 +6343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
 --- !u!114 &662778980
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6339,8 +6357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   errorMessage: 
-  indentLevel: 1
-  storyText: I hope her date is a lot more genuine than Richard turned out to be...
+  indentLevel: 2
+  storyText: I hope her date is a lot more supportive than Richard turned out to be...
   description: 
   character: {fileID: 1024565122}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -6365,7 +6383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   compareOperator: 0
   variable: {fileID: 1693620361}
   booleanData:
@@ -6393,7 +6411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   storyText: Nice! How did it go?
   description: 
   character: {fileID: 167181402}
@@ -6419,7 +6437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   storyText: '{audio=Heart}So... I went on a date this week with this pretty cute
     guy. His name is Nate.'
   description: 
@@ -6553,7 +6571,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 658
-    y: 71
+    y: 72
     width: 120
     height: 40
   itemId: 36
@@ -6625,11 +6643,11 @@ MonoBehaviour:
   - {fileID: 662779006}
   - {fileID: 662779042}
   - {fileID: 662779005}
-  - {fileID: 662779004}
   - {fileID: 662779025}
   - {fileID: 662779003}
   - {fileID: 662779024}
   - {fileID: 662779041}
+  - {fileID: 662779004}
   - {fileID: 662779017}
   - {fileID: 662779023}
   - {fileID: 662779022}
@@ -6734,8 +6752,8 @@ MonoBehaviour:
   itemId: 31
   errorMessage: 
   indentLevel: 0
-  storyText: Especially when I told him I just wanted to go home, I couldn't bring
-    myself to tell him what was going on.
+  storyText: Especially when I told him I just wanted to go home. I just couldn't
+    bring myself to tell him what was going on.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -6841,7 +6859,8 @@ MonoBehaviour:
   itemId: 26
   errorMessage: 
   indentLevel: 0
-  storyText: Um... it turns out that movie is way too reminiscent of my stalker experience.
+  storyText: Um... it turns out that movie reminded me way too much of what happened
+    with my stalker.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -7481,8 +7500,9 @@ MonoBehaviour:
   itemId: 54
   errorMessage: 
   indentLevel: 0
-  storyText: Can I have you guys look it over before I send it? I'll probably write
-    a draft tonight and try and send it later this week.
+  storyText: I guess I'll send him an email. Can I have you guys look it over before
+    I send it? I'll probably write a draft tonight and try and send it later this
+    week.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -7704,7 +7724,7 @@ MonoBehaviour:
   text: Skip Jay's story
   description: 
   targetBlock: {fileID: 662779035}
-  hideIfVisited: 0
+  hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779034
 MonoBehaviour:
@@ -7723,7 +7743,7 @@ MonoBehaviour:
   text: Continue Jay's story
   description: 
   targetBlock: {fileID: 662778964}
-  hideIfVisited: 0
+  hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &662779035
 MonoBehaviour:
@@ -7766,7 +7786,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Jay's story contains content that might be difficult for some players,
-    particularly if you suffer from PTSD & struggle with traumatic flashbacks.
+    particularly if you suffer from PTSD & sometimes experience traumatic flashbacks
+    or have had to deal with a stalker.
   description: 
   character: {fileID: 1535347643}
   portrait: {fileID: 0}
@@ -9234,7 +9255,7 @@ MonoBehaviour:
   itemId: 143
   errorMessage: 
   indentLevel: 0
-  storyText: "I had really bad nightmares too. \n\n"
+  storyText: "I had really awful nightmares too. \n\n"
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -9288,7 +9309,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: I just felt so completely stressed out and anxious, like I was dealing
-    with that stalker again. I couldn't bring myself to go out or anything.
+    with the stalker again. I couldn't bring myself to go out or anything.
   description: 
   character: {fileID: 896170398}
   portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
@@ -10501,6 +10522,249 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &662779149
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 203
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &662779150
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 202
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 662779055}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &662779151
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 201
+  errorMessage: 
+  indentLevel: 1
+  storyText: Do you want to tell us what happened?
+  description: 
+  character: {fileID: 2099325552}
+  portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &662779152
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  errorMessage: 
+  indentLevel: 1
+--- !u!114 &662779153
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  errorMessage: 
+  indentLevel: 2
+  storyText: I hope her date is a lot more supportive than Richard turned out to be...
+  description: 
+  character: {fileID: 1024565122}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 600837723}
+--- !u!114 &662779154
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 204
+  errorMessage: 
+  indentLevel: 1
+  compareOperator: 0
+  variable: {fileID: 1693620361}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &662779155
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 200
+  errorMessage: 
+  indentLevel: 1
+  storyText: Yeah, I had a date. A new guy, pretty cute. His name is Nate.
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: bf11e8239e121e8468f2a8e116715ebd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &662779156
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 199
+  errorMessage: 
+  indentLevel: 1
+  storyText: Uh oh, that doesn't sound good.
+  description: 
+  character: {fileID: 167181402}
+  portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &662779157
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 198
+  errorMessage: 
+  indentLevel: 1
+  storyText: '{audio=Heart}Um, so the whole thing that triggered me actually started
+    out pretty innocently.'
+  description: 
+  character: {fileID: 896170398}
+  portrait: {fileID: 21300000, guid: d5022ce1f33840d4890ac981253ae1fc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &662779158
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662778962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 197
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 662779055}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &825801740
 GameObject:
   m_ObjectHideFlags: 0
@@ -12378,7 +12642,7 @@ MonoBehaviour:
     height: 1065
   selectedBlock: {fileID: 1452200126}
   selectedCommands:
-  - {fileID: 1452200129}
+  - {fileID: 1452200118}
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -12540,8 +12804,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: 'Carrie dealt with some terrible bullying in high school and suffered
-    a psychotic break as a result of it, but after years of treatment she has made
-    a life for herself that she feels good about. '
+    a psychotic break as a result, but after years of treatment she has made a life
+    for herself that she feels good about. '
   description: 
   character: {fileID: 1538509904}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -13235,9 +13499,9 @@ MonoBehaviour:
     y: -414
     width: 1664
     height: 1028
-  selectedBlock: {fileID: 1529011486}
+  selectedBlock: {fileID: 1529011481}
   selectedCommands:
-  - {fileID: 1529011487}
+  - {fileID: 1529011485}
   variables: []
   description: 
   stepPause: 0
@@ -13277,7 +13541,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Quit Playing
   description: 
-  targetBlock: {fileID: 1529011486}
+  targetBlock: {fileID: 0}
   hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1529011486
@@ -14168,6 +14432,8 @@ GameObject:
   - 114: {fileID: 1693620474}
   - 114: {fileID: 1693620478}
   - 114: {fileID: 1693620477}
+  - 114: {fileID: 1693620479}
+  - 114: {fileID: 1693620480}
   m_Layer: 0
   m_Name: FlowchartMary
   m_TagString: Untagged
@@ -14252,7 +14518,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartMary
-  nextItemId: 204
+  nextItemId: 206
 --- !u!4 &1693620354
 Transform:
   m_ObjectHideFlags: 0
@@ -14442,6 +14708,7 @@ MonoBehaviour:
   - {fileID: 1693620426}
   - {fileID: 1693620478}
   - {fileID: 1693620477}
+  - {fileID: 1693620480}
   - {fileID: 1693620434}
   - {fileID: 1693620425}
   - {fileID: 1693620424}
@@ -14619,6 +14886,7 @@ MonoBehaviour:
   - {fileID: 1693620442}
   - {fileID: 1693620367}
   - {fileID: 1693620390}
+  - {fileID: 1693620479}
   - {fileID: 1693620374}
   - {fileID: 1693620413}
   - {fileID: 1693620473}
@@ -14805,8 +15073,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Mostly, yes. Of course there were the usual naysayers who believe that
-    the world would be better off without my work... Of course BME had a full spread
-    on the show and we let them use some of Janelle's photos, so that was great.
+    the world would be better off without my work... But BME had a full spread on
+    the show using some of Janelle's photos, so that was great.
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -15213,9 +15481,9 @@ MonoBehaviour:
   itemId: 52
   errorMessage: 
   indentLevel: 0
-  storyText: I was {b}so{/b} worried
+  storyText: 'I was {b}so{/b} worried about what kind of response I would get. '
   description: 
-  character: {fileID: 167181402}
+  character: {fileID: 1024565122}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -15815,9 +16083,7 @@ MonoBehaviour:
   itemId: 119
   errorMessage: 
   indentLevel: 0
-  storyText: 'If only Richard could have been half as supportive...
-
-    Who would have thought it would be my mom that would show up and not him?'
+  storyText: If only Richard could have been half as supportive...
   description: 
   character: {fileID: 1024565122}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -15899,7 +16165,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: But this time she came to my reception and actually said some really
-    positive things about my work!
+    positive things about it!
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -17270,7 +17536,7 @@ MonoBehaviour:
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 600837723}
 --- !u!114 &1693620478
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17298,6 +17564,36 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1693620479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 204
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
+--- !u!114 &1693620480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693620350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &1702637391
 GameObject:
   m_ObjectHideFlags: 0
@@ -18047,6 +18343,7 @@ GameObject:
   - 114: {fileID: 1882276457}
   - 114: {fileID: 1882276456}
   - 114: {fileID: 1882276455}
+  - 114: {fileID: 1882276462}
   m_Layer: 0
   m_Name: FlowchartCarrie
   m_TagString: Untagged
@@ -18130,8 +18427,9 @@ MonoBehaviour:
     y: -391
     width: 1529
     height: 1020
-  selectedBlock: {fileID: 1882276350}
-  selectedCommands: []
+  selectedBlock: {fileID: 1882276355}
+  selectedCommands:
+  - {fileID: 1882276354}
   variables:
   - {fileID: 1882276364}
   - {fileID: 1882276363}
@@ -18142,7 +18440,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartCarrie
-  nextItemId: 120
+  nextItemId: 121
 --- !u!114 &1882276353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18460,8 +18758,8 @@ MonoBehaviour:
   itemId: 13
   errorMessage: 
   indentLevel: 0
-  storyText: '[Whatever feels comfortable, Laurie. I''m glad to hear your week went
-    well.]'
+  storyText: Well, I'm glad your week was uneventful. Don't hesitate to speak up if
+    anything comes to you, though.
   description: 
   character: {fileID: 2099325552}
   portrait: {fileID: 21300000, guid: a35b7fc50826e9145846d83781742614, type: 3}
@@ -18487,8 +18785,9 @@ MonoBehaviour:
   itemId: 12
   errorMessage: 
   indentLevel: 0
-  storyText: "[Nothing much to say this week, I'm afraid. My week was pretty uneventful.
-    \n{i}Laurie smiles.{/i}]"
+  storyText: 'My week was pretty typical, I guess. Not a lot to say this time, I guess.
+
+    {i}Carrie smiles.{/i}'
   description: 
   character: {fileID: 1895239322}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -18514,8 +18813,8 @@ MonoBehaviour:
   itemId: 11
   errorMessage: 
   indentLevel: 0
-  storyText: '[Yeah, I''d rather not talk about my week right now, it just feels like
-    crowing.]'
+  storyText: I don't really feel like there's much that I need to talk about this
+    week.
   description: 
   character: {fileID: 549248041}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -18550,6 +18849,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1882276368}
+  - {fileID: 1882276462}
   - {fileID: 1882276367}
   - {fileID: 1882276366}
   - {fileID: 1882276365}
@@ -18645,7 +18945,7 @@ MonoBehaviour:
   text: I don't really have anything I need to talk about
   description: 
   targetBlock: {fileID: 1882276369}
-  hideIfVisited: 0
+  hideIfVisited: 1
   setMenuDialog: {fileID: 0}
 --- !u!114 &1882276374
 MonoBehaviour:
@@ -19118,9 +19418,9 @@ MonoBehaviour:
   itemId: 59
   errorMessage: 
   indentLevel: 0
-  storyText: No, though I thought she was because she seemed sort of brusque. She
-    told me later that she had been writing all day so her head was still half in
-    Writer Land, so that was why it seemed that way to me.
+  storyText: No, though she {b}was{/b} sort of brusque. She told me later that she
+    had been writing all day so her head was still half in Writer Land, so that was
+    why she seemed angry to me.
   description: 
   character: {fileID: 1895239322}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -19173,8 +19473,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: But I'd totally forgotten about it, so at first I had no idea what she
-    was talking about. I thought my old one was still in our bathroom and that was
-    what she was angry about.
+    was talking about. I thought my old one was still in our bathroom and that she
+    was pissed off about it for some reason.
   description: 
   character: {fileID: 1895239322}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -19369,7 +19669,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{i}Mary laughs.{/i}
 
-    Oh, c''mon! We all know how dumb fights happen in every relationship.'
+    Oh, c''mon! We all know how nonsensical fights happen in every relationship.'
   description: 
   character: {fileID: 167181402}
   portrait: {fileID: 21300000, guid: d20c6ae323f26dc40a6aa6500f5116cc, type: 3}
@@ -19490,8 +19790,8 @@ MonoBehaviour:
   itemId: 41
   errorMessage: 
   indentLevel: 0
-  storyText: Do I tell them about the fight we had? It was such a stupid petty thing
-    to fight over...
+  storyText: Do I tell them about the fight we had? It was such a trivial thing to
+    fight over...
   description: 
   character: {fileID: 549248041}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -19927,8 +20227,8 @@ MonoBehaviour:
   itemId: 66
   errorMessage: 
   indentLevel: 0
-  storyText: Yeah, I just felt silly for being snippy with her, and really surprised
-    that she got so upset right away. But I understood it after she explained.
+  storyText: Yeah, I just felt kind of foolish for being snippy with her, and really
+    surprised that she got so upset right away. But I understood it after she explained.
   description: 
   character: {fileID: 1895239322}
   portrait: {fileID: 21300000, guid: e0267f8f18272fb44a61f67abc9fbeaf, type: 3}
@@ -20865,6 +21165,21 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &1882276462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882276348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &1883359264
 GameObject:
   m_ObjectHideFlags: 0
@@ -21419,6 +21734,7 @@ GameObject:
   - 114: {fileID: 2110148173}
   - 114: {fileID: 2110148175}
   - 114: {fileID: 2110148174}
+  - 114: {fileID: 2110148176}
   m_Layer: 0
   m_Name: FlowchartEnd
   m_TagString: Untagged
@@ -21461,6 +21777,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 2110148176}
   - {fileID: 2110148112}
   - {fileID: 2110148111}
   - {fileID: 2110148110}
@@ -21516,9 +21833,9 @@ MonoBehaviour:
     y: -382
     width: 1333
     height: 901
-  selectedBlock: {fileID: 2110148085}
+  selectedBlock: {fileID: 2110148082}
   selectedCommands:
-  - {fileID: 2110148173}
+  - {fileID: 2110148114}
   variables: []
   description: 
   stepPause: 0
@@ -21526,7 +21843,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartEnd
-  nextItemId: 108
+  nextItemId: 109
 --- !u!114 &2110148085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22456,8 +22773,7 @@ MonoBehaviour:
   itemId: 43
   errorMessage: 
   indentLevel: 0
-  storyText: 'Walking Bugsy or playing with him also helps, he really brightens my
-    days.
+  storyText: 'I think walking the new puppy or playing with him will also help.
 
     {i}Laurie smiles.{/i}'
   description: 
@@ -23707,7 +24023,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2110148173
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -23741,7 +24057,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2110148174
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -23756,7 +24072,7 @@ MonoBehaviour:
   duration: 5
 --- !u!114 &2110148175
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110148080}
@@ -23784,6 +24100,21 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &2110148176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110148080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 1546832310}
 --- !u!1 &2118928626
 GameObject:
   m_ObjectHideFlags: 0
