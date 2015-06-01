@@ -5359,7 +5359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1529011483}
+  selectedFlowchart: {fileID: 1452200123}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -12511,7 +12511,7 @@ MonoBehaviour:
   control: 0
   audioSource: {fileID: 1838793206}
   startVolume: 1
-  endVolume: 1
+  endVolume: .300000012
   fadeDuration: 0
   waitUntilFinished: 0
 --- !u!114 &1452200118
@@ -12658,8 +12658,9 @@ MonoBehaviour:
     y: -388
     width: 1552
     height: 1065
-  selectedBlock: {fileID: 1452200126}
-  selectedCommands: []
+  selectedBlock: {fileID: 1452200121}
+  selectedCommands:
+  - {fileID: 1452200117}
   variables:
   - {fileID: 1452200147}
   - {fileID: 1452200146}
@@ -12671,7 +12672,7 @@ MonoBehaviour:
   hideComponents: 1
   saveSelection: 1
   localizationId: FlowchartIntro
-  nextItemId: 91
+  nextItemId: 92
 --- !u!4 &1452200124
 Transform:
   m_ObjectHideFlags: 0
@@ -21904,8 +21905,9 @@ MonoBehaviour:
     y: -382
     width: 1333
     height: 901
-  selectedBlock: {fileID: 2110148082}
-  selectedCommands: []
+  selectedBlock: {fileID: 2110148085}
+  selectedCommands:
+  - {fileID: 2110148160}
   variables: []
   description: 
   stepPause: 0
@@ -23847,7 +23849,7 @@ MonoBehaviour:
   control: 0
   audioSource: {fileID: 1838793206}
   startVolume: 1
-  endVolume: 1
+  endVolume: .300000012
   fadeDuration: 0
   waitUntilFinished: 0
 --- !u!114 &2110148161
