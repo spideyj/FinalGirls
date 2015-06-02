@@ -5359,7 +5359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1452200123}
+  selectedFlowchart: {fileID: 1693620353}
 --- !u!4 &604191540
 Transform:
   m_ObjectHideFlags: 1
@@ -5927,8 +5927,9 @@ MonoBehaviour:
     y: -389
     width: 1759
     height: 1101
-  selectedBlock: {fileID: 662779035}
-  selectedCommands: []
+  selectedBlock: {fileID: 662779038}
+  selectedCommands:
+  - {fileID: 662779040}
   variables:
   - {fileID: 662779071}
   - {fileID: 662779016}
@@ -7791,7 +7792,7 @@ MonoBehaviour:
     or have had to deal with a stalker.
   description: 
   character: {fileID: 1535347643}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7884,7 +7885,7 @@ MonoBehaviour:
   storyText: You may skip this content with no penalty if you choose.
   description: 
   character: {fileID: 1535347643}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13645,8 +13646,9 @@ MonoBehaviour:
   nameText: Content warning
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 0}
-  portraits: []
+  profileSprite: {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
   portraitsFace: 0
   description: 
 --- !u!1 &1538509902
@@ -14525,7 +14527,8 @@ MonoBehaviour:
     width: 1972.42554
     height: 1481
   selectedBlock: {fileID: 1693620351}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1693620441}
   variables:
   - {fileID: 1693620379}
   - {fileID: 1693620361}
@@ -15965,7 +15968,7 @@ MonoBehaviour:
     especially if you have been dealing with relationship problems lately.
   description: 
   character: {fileID: 1535347643}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16731,7 +16734,7 @@ MonoBehaviour:
   storyText: You may skip this content with no penalty if you choose.
   description: 
   character: {fileID: 1535347643}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d44390c42da16f045931911c434ef857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
